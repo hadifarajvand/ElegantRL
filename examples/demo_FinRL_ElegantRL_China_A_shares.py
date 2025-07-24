@@ -108,11 +108,125 @@ class StockTradingEnv:
         state = self.get_state()
         truncated = False
         return state, reward, terminal, truncated, {}
+        
+    def render(self):
+        """Render the trading environment"""
+        import matplotlib.pyplot as plt
+        
+        # If this is the first render call, initialize the visualization
+        if not hasattr(self, 'render_initialized'):
+            plt.ion()  # Turn on interactive mode
+            self.render_initialized = True
+            self.fig, (self.ax1, self.ax2) = plt.subplots(2, 1, figsize=(10, 8))
+            self.portfolio_values = []
+            self.timestamps = []
+        
+        # Update portfolio value history
+        current_value = self.total_asset
+        self.portfolio_values.append(current_value)
+        self.timestamps.append(self.day)
+        
+        # Clear previous plots
+        self.ax1.clear()
+        self.ax2.clear()
+        
+        # Plot portfolio value
+        self.ax1.plot(self.timestamps, self.portfolio_values, 'b-', label='Portfolio Value')
+        self.ax1.set_title('Portfolio Value Over Time')
+        self.ax1.set_xlabel('Time Step')
+        self.ax1.set_ylabel('Portfolio Value')
+        self.ax1.grid(True)
+        self.ax1.legend()
+        
+        # Plot current holdings
+        positions = self.shares * self.close_ary[self.day]
+        self.ax2.bar(range(len(positions)), positions)
+        self.ax2.set_title('Current Stock Holdings')
+        self.ax2.set_xlabel('Stock Index')
+        self.ax2.set_ylabel('Position Value')
+        self.ax2.grid(True)
+        
+        # Adjust layout and display
+        plt.tight_layout()
+        plt.pause(0.01)
+        
+        if self.day == self.max_step:
+            plt.ioff()
+            plt.show()
 
     def load_data_from_disk(self, tech_id_list=None) -> Tuple[ARY, ARY]:
         tech_id_list = [
             "macd", "boll_ub", "boll_lb", "rsi_30", "cci_30", "dx_30", "close_30_sma", "close_60_sma",
         ] if tech_id_list is None else tech_id_list
+
+        def download_file(url, file_path, max_retries=3):
+            try:
+                import requests
+                from time import sleep
+            except ImportError:
+                print("Installing required package: requests")
+                import subprocess
+                subprocess.check_call(["pip", "install", "requests"])
+                import requests
+                from time import sleep
+            
+            for attempt in range(max_retries):
+                try:
+                    print(f"Downloading {file_path} from {url} (attempt {attempt + 1}/{max_retries})")
+                    response = requests.get(url, stream=True, timeout=30)
+                    response.raise_for_status()
+                    
+                    total_size = int(response.headers.get('content-length', 0))
+                    block_size = 8192
+                    downloaded = 0
+                    
+                    with open(file_path, 'wb') as f:
+                        for data in response.iter_content(block_size):
+                            downloaded += len(data)
+                            f.write(data)
+                            
+                            if total_size:
+                                percent = (downloaded / total_size) * 100
+                                print(f"\rProgress: {percent:.1f}%", end="")
+                    
+                    print(f"\nSuccessfully downloaded {file_path}")
+                    return True
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        wait_time = 2 ** attempt  # Exponential backoff
+                        print(f"Download failed: {str(e)}")
+                        print(f"Retrying in {wait_time} seconds...")
+                        sleep(wait_time)
+                    else:
+                        print(f"Failed to download after {max_retries} attempts: {str(e)}")
+                        raise
+            return False
+
+        # Try to download files if they don't exist
+        if not (os.path.exists(self.npz_pwd) or os.path.exists(self.df_pwd)):
+            try:
+                # Raw GitHub URLs for the data files
+                npz_url = "https://raw.githubusercontent.com/Yonv1943/Python/master/scow/China_A_shares.numpy.npz"
+                df_url = "https://raw.githubusercontent.com/Yonv1943/Python/master/scow/China_A_shares.pandas.dataframe"
+                
+                # Download both files with retry mechanism
+                if not download_file(npz_url, self.npz_pwd):
+                    raise Exception("Failed to download npz file")
+                if not download_file(df_url, self.df_pwd):
+                    raise Exception("Failed to download dataframe file")
+                    
+            except Exception as e:
+                # Clean up partially downloaded files
+                if os.path.exists(self.npz_pwd):
+                    os.remove(self.npz_pwd)
+                if os.path.exists(self.df_pwd):
+                    os.remove(self.df_pwd)
+                    
+                error_str = f"| StockTradingEnv failed to download data files: {str(e)}" \
+                           f"\n  Please manually download the following files and save in `.`" \
+                           f"\n  {npz_url}" \
+                           f"\n  {df_url}"
+                raise FileNotFoundError(error_str)
 
         if os.path.exists(self.npz_pwd):
             ary_dict = np.load(self.npz_pwd, allow_pickle=True)
@@ -139,10 +253,8 @@ class StockTradingEnv:
 
             np.savez_compressed(self.npz_pwd, close_ary=close_ary, tech_ary=tech_ary, )
         else:
-            error_str = f"| StockTradingEnv need {self.df_pwd} or {self.npz_pwd}" \
-                        f"\n  download the following files and save in `.`" \
-                        f"\n  https://github.com/Yonv1943/Python/blob/master/scow/China_A_shares.numpy.npz" \
-                        f"\n  https://github.com/Yonv1943/Python/blob/master/scow/China_A_shares.pandas.dataframe"
+            error_str = f"| StockTradingEnv failed to load data files after download attempt" \
+                        f"\n  Please ensure {self.df_pwd} or {self.npz_pwd} exists and is accessible"
             raise FileNotFoundError(error_str)
         return close_ary, tech_ary
 
