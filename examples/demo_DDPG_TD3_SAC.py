@@ -131,13 +131,13 @@ def train_ddpg_td3_sac_for_lunar_lander_continuous(agent_class):
     import gymnasium as gym
     agent_class = [AgentTD3, AgentSAC, AgentModSAC][DRL_ID]  # DRL algorithm name
     env_class = gym.make  # run a custom env: PendulumEnv, which based on OpenAI pendulum
-    env_args = {'env_name': 'LunarLanderContinuous-v2',
+    env_args = {'env_name': 'LunarLanderContinuous-v3',
                 'num_envs': 1,
                 'max_step': 1000,
                 'state_dim': 8,
                 'action_dim': 2,
                 'if_discrete': False}
-    get_gym_env_args(env=gym.make('LunarLanderContinuous-v2'), if_print=True)  # return env_args
+    get_gym_env_args(env=gym.make('LunarLanderContinuous-v3'), if_print=True)  # return env_args
 
     args = Config(agent_class, env_class, env_args)  # see `erl_config.py Arguments()` for hyperparameter explanation
     args.net_dims = [256, 256]  # the middle layer dimension of MultiLayer Perceptron
@@ -170,7 +170,7 @@ ID     Step    Time |    avgR   stdR   avgS  stdS |    expR   objC   objA   etc.
 3  3.16e+05     920 |  174.72  138.2    353   235 |    0.36   0.58   9.07   0.03
 3  3.56e+05    1031 |  210.69   89.8    329   234 |    0.27   0.61   8.85   0.03
 3  3.96e+05    1139 |  260.68   25.7    275    86 |    0.34   0.61   9.23   0.02
-| UsedTime:    1147 | SavedDir: ./LunarLanderContinuous-v2_ModSAC_0
+| UsedTime:    1147 | SavedDir: ./LunarLanderContinuous-v3_ModSAC_0
     """
 
 
@@ -181,7 +181,7 @@ def train_ddpg_td3_sac_for_lunar_lander_continuous_vec_env(agent_class):
     import gymnasium as gym
     env_class = gym.make  # run a custom env: PendulumEnv, which based on OpenAI pendulum
     env_args = {
-        'env_name': 'LunarLanderContinuous-v2',
+        'env_name': 'LunarLanderContinuous-v3',
         'max_step': 1000,
         'state_dim': 8,
         'action_dim': 2,
@@ -190,7 +190,7 @@ def train_ddpg_td3_sac_for_lunar_lander_continuous_vec_env(agent_class):
         'num_envs': num_envs,  # the number of sub envs in vectorized env
         'if_build_vec_env': True,
     }
-    get_gym_env_args(env=gym.make('LunarLanderContinuous-v2'), if_print=True)  # return env_args
+    get_gym_env_args(env=gym.make('LunarLanderContinuous-v3'), if_print=True)  # return env_args
 
     args = Config(agent_class, env_class, env_args)  # see `erl_config.py Arguments()` for hyperparameter explanation
     args.net_dims = [256, 128]  # the middle layer dimension of MultiLayer Perceptron
@@ -230,7 +230,7 @@ ID     Step    Time |    avgR   stdR   avgS  stdS |    expR   objC   objA   etc.
 2  1.42e+05     466 |  241.06   60.2    299   141 |    0.25   0.54  11.62   0.03
 2  1.62e+05     527 |  257.67   39.7    243   108 |    0.21   0.49  11.09   0.02
 2  1.82e+05     598 |  242.47   56.4    441   252 |    0.54   0.57  10.63   0.02
-| UsedTime:     627 | SavedDir: ./LunarLanderContinuous-v2_ModSAC_0
+| UsedTime:     627 | SavedDir: ./LunarLanderContinuous-v3_ModSAC_0
     """
 
 
@@ -328,8 +328,8 @@ def train_ddpg_td3_sac_for_bipedal_walker_vec_env(agent_class):
 if __name__ == '__main__':
     Parser = ArgumentParser(description='ArgumentParser for ElegantRL')
     Parser.add_argument('--gpu', type=int, default=0, help='GPU device ID for training')
-    Parser.add_argument('--drl', type=int, default=2, help='RL algorithms ID for training')
-    Parser.add_argument('--env', type=str, default='3', help='the environment ID for training')
+    Parser.add_argument('--drl', type=int, default=3, help='RL algorithms ID for training')
+    Parser.add_argument('--env', type=str, default='1', help='the environment ID for training')
 
     Args = Parser.parse_args()
     GPU_ID = Args.gpu

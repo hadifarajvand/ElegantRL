@@ -47,7 +47,7 @@ class StockTradingEnv:
         amount_dim = 1
 
         # environment information
-        self.env_name = 'StockTradingEnv-v2'
+        self.env_name = 'StockTradingEnv-v3'
         self.state_dim = self.shares_num + self.close_ary.shape[1] + self.tech_ary.shape[1] + amount_dim
         self.action_dim = self.shares_num
         self.if_discrete = False

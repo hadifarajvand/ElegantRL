@@ -90,7 +90,7 @@ def train_ddpg_td3_sac_for_lunar_lander_continuous_vec_env(agent_class):
     import gymnasium as gym
     env_class = gym.make  # run a custom env: PendulumEnv, which based on OpenAI pendulum
     env_args = {
-        'env_name': 'LunarLanderContinuous-v2',
+        'env_name': 'LunarLanderContinuous-v3',
         'max_step': 1000,
         'state_dim': 8,
         'action_dim': 2,
@@ -99,7 +99,7 @@ def train_ddpg_td3_sac_for_lunar_lander_continuous_vec_env(agent_class):
         'num_envs': num_envs,  # the number of sub envs in vectorized env
         'if_build_vec_env': True,
     }
-    get_gym_env_args(env=gym.make('LunarLanderContinuous-v2'), if_print=True)  # return env_args
+    get_gym_env_args(env=gym.make('LunarLanderContinuous-v3'), if_print=True)  # return env_args
 
     args = Config(agent_class, env_class, env_args)  # see `erl_config.py Arguments()` for hyperparameter explanation
     args.net_dims = [256, 128]  # the middle layer dimension of MultiLayer Perceptron
