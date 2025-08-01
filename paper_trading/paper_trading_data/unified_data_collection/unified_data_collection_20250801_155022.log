@@ -1,0 +1,84 @@
+2025-08-01 15:50:22,703 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-08-01 15:50:22,703 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-08-01 15:50:22,703 - INFO - 📊 Exchange: mexc
+2025-08-01 15:50:22,703 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-08-01 15:50:22,703 - INFO - ⏰ Timeframe: 1m
+2025-08-01 15:50:22,703 - INFO - 
+🔗 Testing connection to mexc...
+2025-08-01 15:50:22,703 - INFO - ✅ Successfully connected to mexc
+2025-08-01 15:50:22,703 - INFO - 📊 Available markets: 1
+2025-08-01 15:50:22,703 - INFO - ✅ Symbol BTC/USDT:USDT is available
+2025-08-01 15:50:22,703 - INFO - 
+============================================================
+2025-08-01 15:50:22,703 - INFO - 📊 Collecting Comprehensive Bitcoin Data
+2025-08-01 15:50:22,703 - INFO - ============================================================
+2025-08-01 15:50:22,703 - INFO - 📅 Date range: 2023-08-02 to 2025-08-01
+2025-08-01 15:50:22,703 - INFO - 📊 Total days: 730
+2025-08-01 15:50:22,703 - INFO - 🔧 Chunk size: 30 days
+2025-08-01 15:50:22,703 - INFO - 📊 Collecting chunk: 2023-08-02 to 2023-09-01
+2025-08-01 15:50:25,916 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:26,921 - INFO - 📊 Collecting chunk: 2023-09-01 to 2023-10-01
+2025-08-01 15:50:30,012 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:31,017 - INFO - 📊 Collecting chunk: 2023-10-01 to 2023-10-31
+2025-08-01 15:50:33,949 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:34,955 - INFO - 📊 Collecting chunk: 2023-10-31 to 2023-11-30
+2025-08-01 15:50:37,875 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:38,876 - INFO - 📊 Collecting chunk: 2023-11-30 to 2023-12-30
+2025-08-01 15:50:41,514 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:42,519 - INFO - 📊 Collecting chunk: 2023-12-30 to 2024-01-29
+2025-08-01 15:50:45,089 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:46,094 - INFO - 📊 Collecting chunk: 2024-01-29 to 2024-02-28
+2025-08-01 15:50:48,500 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:49,506 - INFO - 📊 Collecting chunk: 2024-02-28 to 2024-03-29
+2025-08-01 15:50:51,774 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:52,777 - INFO - 📊 Collecting chunk: 2024-03-29 to 2024-04-28
+2025-08-01 15:50:54,974 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:55,975 - INFO - 📊 Collecting chunk: 2024-04-28 to 2024-05-28
+2025-08-01 15:50:57,988 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:50:58,993 - INFO - 📊 Collecting chunk: 2024-05-28 to 2024-06-27
+2025-08-01 15:51:00,982 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:01,987 - INFO - 📊 Collecting chunk: 2024-06-27 to 2024-07-27
+2025-08-01 15:51:03,761 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:04,766 - INFO - 📊 Collecting chunk: 2024-07-27 to 2024-08-26
+2025-08-01 15:51:06,365 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:07,370 - INFO - 📊 Collecting chunk: 2024-08-26 to 2024-09-25
+2025-08-01 15:51:08,866 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:09,871 - INFO - 📊 Collecting chunk: 2024-09-25 to 2024-10-25
+2025-08-01 15:51:11,204 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:12,209 - INFO - 📊 Collecting chunk: 2024-10-25 to 2024-11-24
+2025-08-01 15:51:13,414 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:14,419 - INFO - 📊 Collecting chunk: 2024-11-24 to 2024-12-24
+2025-08-01 15:51:15,498 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:16,503 - INFO - 📊 Collecting chunk: 2024-12-24 to 2025-01-23
+2025-08-01 15:51:17,633 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:18,638 - INFO - 📊 Collecting chunk: 2025-01-23 to 2025-02-22
+2025-08-01 15:51:19,471 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:20,476 - INFO - 📊 Collecting chunk: 2025-02-22 to 2025-03-24
+2025-08-01 15:51:21,135 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:22,140 - INFO - 📊 Collecting chunk: 2025-03-24 to 2025-04-23
+2025-08-01 15:51:22,674 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:23,675 - INFO - 📊 Collecting chunk: 2025-04-23 to 2025-05-23
+2025-08-01 15:51:24,103 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:25,108 - INFO - 📊 Collecting chunk: 2025-05-23 to 2025-06-22
+2025-08-01 15:51:25,400 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:26,406 - INFO - 📊 Collecting chunk: 2025-06-22 to 2025-07-22
+2025-08-01 15:51:26,568 - INFO - ✅ Chunk collected: 43200 records
+2025-08-01 15:51:27,574 - INFO - 📊 Collecting chunk: 2025-07-22 to 2025-08-01
+2025-08-01 15:51:27,612 - INFO - ✅ Chunk collected: 14190 records
+2025-08-01 15:51:28,648 - INFO - 🧹 Cleaning and validating data...
+2025-08-01 15:51:28,917 - INFO -    Removed 0 duplicates
+2025-08-01 15:51:28,956 - INFO -    Removed rows with missing values: 1,050,990 records remaining
+2025-08-01 15:51:28,964 - INFO -    Validated price data: 1,050,990 records remaining
+2025-08-01 15:51:28,973 - INFO -    Validated OHLC relationships: 1,050,990 records remaining
+2025-08-01 15:51:29,068 - INFO -    Removed outliers: 993,987 records remaining
+2025-08-01 15:51:31,824 - INFO - 💾 CSV file saved: paper_trading_data/unified_data_collection/bitcoin_1m_20230802_20250801.csv
+2025-08-01 15:51:31,999 - INFO - 💾 Parquet file saved: paper_trading_data/unified_data_collection/bitcoin_1m_20230802_20250801.parquet
+2025-08-01 15:51:32,002 - INFO - 💾 Metadata saved: paper_trading_data/unified_data_collection/bitcoin_1m_20230802_20250801_metadata.json
+2025-08-01 15:51:32,002 - INFO - 
+📊 Data Quality Analysis:
+2025-08-01 15:51:32,002 - INFO -    📈 Total records: 993,987
+2025-08-01 15:51:32,004 - INFO -    📅 Date range: 2023-08-02 15:51:22.703000 to 2025-08-01 12:20:22.703000
+2025-08-01 15:51:32,005 - INFO -    💰 Price range: $9,800.02 - $71,164.81
+2025-08-01 15:51:32,007 - INFO -    📊 Volume range: 500,004 - 1,999,999
+2025-08-01 15:51:32,018 - WARNING -    ⚠️  Found 229 time gaps in data
+2025-08-01 15:51:32,029 - WARNING -    ⚠️  Found 23 large price changes (>10%)

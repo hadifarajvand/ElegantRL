@@ -1,0 +1,30 @@
+2025-07-31 08:20:48,795 - INFO - 🚀 Unified Live Trading System Started
+2025-07-31 08:20:48,795 - INFO - 📁 Results directory: paper_trading_data/unified_live_trading
+2025-07-31 08:20:48,795 - INFO - 📊 Exchange: mexc
+2025-07-31 08:20:48,795 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-07-31 08:20:48,795 - INFO - 💵 Initial capital: $100,000.00
+2025-07-31 08:20:48,795 - INFO - 🤖 DRL enabled: False
+2025-07-31 08:20:48,795 - INFO - 
+============================================================
+2025-07-31 08:20:48,795 - INFO - 🚀 Starting Live Trading Session
+2025-07-31 08:20:48,795 - INFO - ============================================================
+2025-07-31 08:20:48,795 - INFO - ⏱️  Duration: 1 minutes
+2025-07-31 08:20:48,795 - INFO - ⏰ Interval: 10 seconds
+2025-07-31 08:20:48,795 - INFO - 🤖 DRL enabled: False
+2025-07-31 08:20:48,796 - INFO - 💰 BUY: 0.979624 shares at $51,040.00 ($50,000.00)
+2025-07-31 08:20:48,796 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=1
+2025-07-31 08:20:58,805 - INFO - 💰 BUY: 0.489812 shares at $51,040.00 ($25,000.00)
+2025-07-31 08:20:58,805 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=2
+2025-07-31 08:21:08,809 - INFO - 💰 BUY: 0.244906 shares at $51,040.00 ($12,500.00)
+2025-07-31 08:21:08,810 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=3
+2025-07-31 08:21:18,817 - INFO - 💰 BUY: 0.122453 shares at $51,040.00 ($6,250.00)
+2025-07-31 08:21:18,817 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=4
+2025-07-31 08:21:28,820 - INFO - 💰 BUY: 0.061226 shares at $51,040.00 ($3,125.00)
+2025-07-31 08:21:28,820 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=5
+2025-07-31 08:21:38,824 - INFO - 💰 BUY: 0.030613 shares at $51,040.00 ($1,562.50)
+2025-07-31 08:21:38,824 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=6
+2025-07-31 08:21:48,829 - INFO - 
+🎉 Trading session completed!
+2025-07-31 08:21:48,830 - INFO - ⏱️  Duration: 0:01:00.034274
+2025-07-31 08:21:48,834 - INFO - 💾 Session data saved: paper_trading_data/unified_live_trading/trading_session_20250731_082148.csv
+2025-07-31 08:21:48,835 - ERROR - ❌ Error saving session results: Object of type int64 is not JSON serializable

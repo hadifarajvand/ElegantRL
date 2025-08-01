@@ -1,0 +1,343 @@
+2025-08-01 14:15:52,844 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 14:15:52,844 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 14:15:52,844 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 14:15:52,844 - INFO - 
+================================================================================
+2025-08-01 14:15:52,844 - INFO - 🚀 STARTING UNIFIED TRAINING OF ALL AGENTS
+2025-08-01 14:15:52,844 - INFO - ================================================================================
+2025-08-01 14:15:52,844 - INFO - 
+============================================================
+2025-08-01 14:15:52,844 - INFO - 🎯 Training PPO Agent
+2025-08-01 14:15:52,844 - INFO - ============================================================
+2025-08-01 14:15:52,845 - INFO - 🔧 Creating PPO agent...
+2025-08-01 14:15:52,845 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:52,849 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:52,849 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:52,850 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:52,850 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:52,850 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:52,852 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:52,853 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:52,854 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:52,854 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:52,854 - INFO - 🚀 Starting training for PPO...
+2025-08-01 14:15:52,855 - INFO -    📊 Episodes: 5
+2025-08-01 14:15:52,855 - INFO -    📈 Data points: 2,865
+2025-08-01 14:15:53,249 - INFO - 
+📊 PPO Training Summary:
+2025-08-01 14:15:53,250 - INFO -    ⏱️  Total time: 0.40s
+2025-08-01 14:15:53,250 - INFO -    🎯 Final reward: 0.013
+2025-08-01 14:15:53,250 - INFO -    📈 Average reward: 0.005
+2025-08-01 14:15:53,250 - INFO -    🔝 Max reward: 0.013
+2025-08-01 14:15:53,250 - INFO -    🔻 Min reward: -0.012
+2025-08-01 14:15:53,250 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/PPO_model_20250801_141553.pt
+2025-08-01 14:15:53,250 - INFO - 
+============================================================
+2025-08-01 14:15:53,250 - INFO - 🔍 Evaluating PPO Agent
+2025-08-01 14:15:53,250 - INFO - ============================================================
+2025-08-01 14:15:53,250 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:53,253 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:53,254 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:53,254 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:53,255 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:53,255 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:53,257 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:53,258 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:53,259 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:53,259 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:53,259 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:15:53,259 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:53,283 - INFO - 📊 PPO Evaluation Results:
+2025-08-01 14:15:53,283 - INFO -    💰 Total return: 23.615
+2025-08-01 14:15:53,283 - INFO -    📈 Average return: 0.083
+2025-08-01 14:15:53,284 - INFO -    🔄 Total trades: 254
+2025-08-01 14:15:53,284 - INFO -    ✅ Wins: 132
+2025-08-01 14:15:53,284 - INFO -    🎯 Win rate: 51.97%
+2025-08-01 14:15:53,284 - INFO - 
+============================================================
+2025-08-01 14:15:53,284 - INFO - 🎯 Training SAC Agent
+2025-08-01 14:15:53,284 - INFO - ============================================================
+2025-08-01 14:15:53,284 - INFO - 🔧 Creating SAC agent...
+2025-08-01 14:15:53,284 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:53,288 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:53,288 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:53,288 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:53,289 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:53,289 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:53,290 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:53,292 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:53,292 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:53,292 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:53,292 - INFO - 🚀 Starting training for SAC...
+2025-08-01 14:15:53,293 - INFO -    📊 Episodes: 5
+2025-08-01 14:15:53,293 - INFO -    📈 Data points: 2,865
+2025-08-01 14:15:53,718 - INFO - 
+📊 SAC Training Summary:
+2025-08-01 14:15:53,719 - INFO -    ⏱️  Total time: 0.43s
+2025-08-01 14:15:53,719 - INFO -    🎯 Final reward: 0.016
+2025-08-01 14:15:53,719 - INFO -    📈 Average reward: -0.002
+2025-08-01 14:15:53,719 - INFO -    🔝 Max reward: 0.037
+2025-08-01 14:15:53,719 - INFO -    🔻 Min reward: -0.054
+2025-08-01 14:15:53,719 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/SAC_model_20250801_141553.pt
+2025-08-01 14:15:53,719 - INFO - 
+============================================================
+2025-08-01 14:15:53,719 - INFO - 🔍 Evaluating SAC Agent
+2025-08-01 14:15:53,719 - INFO - ============================================================
+2025-08-01 14:15:53,719 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:53,723 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:53,723 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:53,723 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:53,723 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:53,723 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:53,725 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:53,726 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:53,726 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:53,727 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:53,727 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:15:53,727 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:53,751 - INFO - 📊 SAC Evaluation Results:
+2025-08-01 14:15:53,751 - INFO -    💰 Total return: 20.757
+2025-08-01 14:15:53,751 - INFO -    📈 Average return: 0.073
+2025-08-01 14:15:53,751 - INFO -    🔄 Total trades: 256
+2025-08-01 14:15:53,751 - INFO -    ✅ Wins: 143
+2025-08-01 14:15:53,751 - INFO -    🎯 Win rate: 55.86%
+2025-08-01 14:15:53,751 - INFO - 
+============================================================
+2025-08-01 14:15:53,751 - INFO - 🎯 Training TD3 Agent
+2025-08-01 14:15:53,751 - INFO - ============================================================
+2025-08-01 14:15:53,751 - INFO - 🔧 Creating TD3 agent...
+2025-08-01 14:15:53,752 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:53,756 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:53,756 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:53,757 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:53,757 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:53,757 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:53,759 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:53,760 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:53,760 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:53,760 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:53,760 - INFO - 🚀 Starting training for TD3...
+2025-08-01 14:15:53,761 - INFO -    📊 Episodes: 5
+2025-08-01 14:15:53,761 - INFO -    📈 Data points: 2,865
+2025-08-01 14:15:54,205 - INFO - 
+📊 TD3 Training Summary:
+2025-08-01 14:15:54,205 - INFO -    ⏱️  Total time: 0.45s
+2025-08-01 14:15:54,205 - INFO -    🎯 Final reward: 0.023
+2025-08-01 14:15:54,205 - INFO -    📈 Average reward: 0.006
+2025-08-01 14:15:54,205 - INFO -    🔝 Max reward: 0.034
+2025-08-01 14:15:54,205 - INFO -    🔻 Min reward: -0.038
+2025-08-01 14:15:54,205 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/TD3_model_20250801_141554.pt
+2025-08-01 14:15:54,205 - INFO - 
+============================================================
+2025-08-01 14:15:54,205 - INFO - 🔍 Evaluating TD3 Agent
+2025-08-01 14:15:54,205 - INFO - ============================================================
+2025-08-01 14:15:54,205 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:54,209 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:54,209 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:54,210 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:54,210 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:54,210 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:54,212 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:54,213 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:54,213 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:54,213 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:54,213 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:15:54,213 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:54,239 - INFO - 📊 TD3 Evaluation Results:
+2025-08-01 14:15:54,239 - INFO -    💰 Total return: 11.488
+2025-08-01 14:15:54,239 - INFO -    📈 Average return: 0.040
+2025-08-01 14:15:54,239 - INFO -    🔄 Total trades: 258
+2025-08-01 14:15:54,239 - INFO -    ✅ Wins: 134
+2025-08-01 14:15:54,239 - INFO -    🎯 Win rate: 51.94%
+2025-08-01 14:15:54,239 - INFO - 
+============================================================
+2025-08-01 14:15:54,239 - INFO - 🎯 Training DDPG Agent
+2025-08-01 14:15:54,240 - INFO - ============================================================
+2025-08-01 14:15:54,240 - INFO - 🔧 Creating DDPG agent...
+2025-08-01 14:15:54,240 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:54,243 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:54,244 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:54,244 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:54,244 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:54,244 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:54,246 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:54,247 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:54,247 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:54,248 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:54,248 - INFO - 🚀 Starting training for DDPG...
+2025-08-01 14:15:54,248 - INFO -    📊 Episodes: 5
+2025-08-01 14:15:54,248 - INFO -    📈 Data points: 2,865
+2025-08-01 14:15:54,674 - INFO - 
+📊 DDPG Training Summary:
+2025-08-01 14:15:54,674 - INFO -    ⏱️  Total time: 0.43s
+2025-08-01 14:15:54,674 - INFO -    🎯 Final reward: 0.008
+2025-08-01 14:15:54,674 - INFO -    📈 Average reward: 0.012
+2025-08-01 14:15:54,674 - INFO -    🔝 Max reward: 0.061
+2025-08-01 14:15:54,674 - INFO -    🔻 Min reward: -0.031
+2025-08-01 14:15:54,674 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/DDPG_model_20250801_141554.pt
+2025-08-01 14:15:54,674 - INFO - 
+============================================================
+2025-08-01 14:15:54,674 - INFO - 🔍 Evaluating DDPG Agent
+2025-08-01 14:15:54,674 - INFO - ============================================================
+2025-08-01 14:15:54,674 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:54,677 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:54,677 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:54,678 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:54,678 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:54,678 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:54,680 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:54,681 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:54,681 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:54,681 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:54,681 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:15:54,682 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:54,710 - INFO - 📊 DDPG Evaluation Results:
+2025-08-01 14:15:54,710 - INFO -    💰 Total return: -12.828
+2025-08-01 14:15:54,710 - INFO -    📈 Average return: -0.045
+2025-08-01 14:15:54,710 - INFO -    🔄 Total trades: 258
+2025-08-01 14:15:54,711 - INFO -    ✅ Wins: 127
+2025-08-01 14:15:54,711 - INFO -    🎯 Win rate: 49.22%
+2025-08-01 14:15:54,711 - INFO - 
+============================================================
+2025-08-01 14:15:54,711 - INFO - 🎯 Training A2C Agent
+2025-08-01 14:15:54,711 - INFO - ============================================================
+2025-08-01 14:15:54,711 - INFO - 🔧 Creating A2C agent...
+2025-08-01 14:15:54,711 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:54,714 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:54,715 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:54,715 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:54,715 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:54,715 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:54,717 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:54,718 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:54,719 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:54,719 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:54,719 - INFO - 🚀 Starting training for A2C...
+2025-08-01 14:15:54,719 - INFO -    📊 Episodes: 5
+2025-08-01 14:15:54,719 - INFO -    📈 Data points: 2,865
+2025-08-01 14:15:55,129 - INFO - 
+📊 A2C Training Summary:
+2025-08-01 14:15:55,129 - INFO -    ⏱️  Total time: 0.42s
+2025-08-01 14:15:55,129 - INFO -    🎯 Final reward: 0.005
+2025-08-01 14:15:55,129 - INFO -    📈 Average reward: -0.013
+2025-08-01 14:15:55,129 - INFO -    🔝 Max reward: 0.009
+2025-08-01 14:15:55,129 - INFO -    🔻 Min reward: -0.033
+2025-08-01 14:15:55,129 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/A2C_model_20250801_141555.pt
+2025-08-01 14:15:55,129 - INFO - 
+============================================================
+2025-08-01 14:15:55,129 - INFO - 🔍 Evaluating A2C Agent
+2025-08-01 14:15:55,129 - INFO - ============================================================
+2025-08-01 14:15:55,129 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:55,133 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:55,133 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:55,133 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:55,133 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:55,133 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:55,135 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:55,136 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:55,137 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:55,137 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:55,137 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:15:55,138 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:55,166 - INFO - 📊 A2C Evaluation Results:
+2025-08-01 14:15:55,166 - INFO -    💰 Total return: 29.092
+2025-08-01 14:15:55,166 - INFO -    📈 Average return: 0.102
+2025-08-01 14:15:55,166 - INFO -    🔄 Total trades: 263
+2025-08-01 14:15:55,166 - INFO -    ✅ Wins: 147
+2025-08-01 14:15:55,166 - INFO -    🎯 Win rate: 55.89%
+2025-08-01 14:15:55,166 - INFO - 
+============================================================
+2025-08-01 14:15:55,166 - INFO - 🎯 Training DQN Agent
+2025-08-01 14:15:55,166 - INFO - ============================================================
+2025-08-01 14:15:55,167 - INFO - 🔧 Creating DQN agent...
+2025-08-01 14:15:55,167 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:55,170 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:55,170 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:55,171 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:55,171 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:55,172 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:55,174 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:55,175 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:55,175 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:55,175 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:55,175 - INFO - 🚀 Starting training for DQN...
+2025-08-01 14:15:55,175 - INFO -    📊 Episodes: 5
+2025-08-01 14:15:55,175 - INFO -    📈 Data points: 2,865
+2025-08-01 14:15:55,585 - INFO - 
+📊 DQN Training Summary:
+2025-08-01 14:15:55,586 - INFO -    ⏱️  Total time: 0.42s
+2025-08-01 14:15:55,586 - INFO -    🎯 Final reward: 0.053
+2025-08-01 14:15:55,586 - INFO -    📈 Average reward: 0.002
+2025-08-01 14:15:55,586 - INFO -    🔝 Max reward: 0.053
+2025-08-01 14:15:55,586 - INFO -    🔻 Min reward: -0.028
+2025-08-01 14:15:55,586 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/DQN_model_20250801_141555.pt
+2025-08-01 14:15:55,586 - INFO - 
+============================================================
+2025-08-01 14:15:55,586 - INFO - 🔍 Evaluating DQN Agent
+2025-08-01 14:15:55,586 - INFO - ============================================================
+2025-08-01 14:15:55,587 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:55,591 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:55,591 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:55,592 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:55,592 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:55,592 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:55,594 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:55,595 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:55,596 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:55,596 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:55,596 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:15:55,596 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:55,626 - INFO - 📊 DQN Evaluation Results:
+2025-08-01 14:15:55,626 - INFO -    💰 Total return: 6.802
+2025-08-01 14:15:55,627 - INFO -    📈 Average return: 0.024
+2025-08-01 14:15:55,627 - INFO -    🔄 Total trades: 251
+2025-08-01 14:15:55,627 - INFO -    ✅ Wins: 133
+2025-08-01 14:15:55,627 - INFO -    🎯 Win rate: 52.99%
+2025-08-01 14:15:55,627 - INFO - 
+============================================================
+2025-08-01 14:15:55,627 - INFO - 🎯 Training DuelingDQN Agent
+2025-08-01 14:15:55,627 - INFO - ============================================================
+2025-08-01 14:15:55,627 - INFO - 🔧 Creating DuelingDQN agent...
+2025-08-01 14:15:55,627 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:55,631 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:55,631 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:55,631 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:55,631 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:55,631 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:55,633 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:55,635 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:55,635 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:55,635 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:55,635 - INFO - 🚀 Starting training for DuelingDQN...
+2025-08-01 14:15:55,635 - INFO -    📊 Episodes: 5
+2025-08-01 14:15:55,635 - INFO -    📈 Data points: 2,865
+2025-08-01 14:15:56,107 - INFO - 
+📊 DuelingDQN Training Summary:
+2025-08-01 14:15:56,107 - INFO -    ⏱️  Total time: 0.48s
+2025-08-01 14:15:56,107 - INFO -    🎯 Final reward: -0.026
+2025-08-01 14:15:56,107 - INFO -    📈 Average reward: -0.002
+2025-08-01 14:15:56,107 - INFO -    🔝 Max reward: 0.074
+2025-08-01 14:15:56,107 - INFO -    🔻 Min reward: -0.031
+2025-08-01 14:15:56,107 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/DuelingDQN_model_20250801_141556.pt
+2025-08-01 14:15:56,107 - INFO - 
+============================================================
+2025-08-01 14:15:56,107 - INFO - 🔍 Evaluating DuelingDQN Agent
+2025-08-01 14:15:56,107 - INFO - ============================================================
+2025-08-01 14:15:56,107 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:15:56,111 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:15:56,111 - INFO -    📈 Total records: 2,865
+2025-08-01 14:15:56,111 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:56,112 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:15:56,112 - INFO - 🧹 Cleaning data...
+2025-08-01 14:15:56,114 - INFO -    Removed 0 duplicates
+2025-08-01 14:15:56,115 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:15:56,115 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:15:56,115 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:15:56,116 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:15:56,116 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:15:56,145 - INFO - 📊 DuelingDQN Evaluation Results:
+2025-08-01 14:15:56,145 - INFO -    💰 Total return: -2.228
+2025-08-01 14:15:56,145 - INFO -    📈 Average return: -0.008
+2025-08-01 14:15:56,145 - INFO -    🔄 Total trades: 260
+2025-08-01 14:15:56,145 - INFO -    ✅ Wins: 129
+2025-08-01 14:15:56,145 - INFO -    🎯 Win rate: 49.62%

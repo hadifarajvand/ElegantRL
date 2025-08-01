@@ -1,0 +1,10 @@
+2025-07-28 10:35:36,679 - paper_trading.data - INFO - Data event: Data fetched
+2025-07-28 10:35:40,862 - paper_trading.data.ccxt_provider - INFO - Exchange binance initialized successfully
+2025-07-28 10:35:40,862 - paper_trading.data.ccxt_provider - INFO - CCXT Provider initialized for binance
+2025-07-28 10:35:41,280 - paper_trading.data.ccxt_provider - INFO - Fetched 31 records for BTC/USDT
+2025-07-28 10:35:41,759 - paper_trading.data.ccxt_provider - INFO - Fetched 31 records for ETH/USDT
+2025-07-28 10:35:58,393 - paper_trading.data - INFO - Data event: Data fetched
+2025-07-28 10:36:02,338 - paper_trading.data.ccxt_provider - INFO - Exchange binance initialized successfully
+2025-07-28 10:36:02,339 - paper_trading.data.ccxt_provider - INFO - CCXT Provider initialized for binance
+2025-07-28 10:36:02,742 - paper_trading.data.ccxt_provider - INFO - Fetched 31 records for BTC/USDT
+2025-07-28 10:36:03,133 - paper_trading.data.ccxt_provider - INFO - Fetched 31 records for ETH/USDT

@@ -1,0 +1,2 @@
+{"timestamp": "2025-07-28T10:35:36.680105", "level": "INFO", "logger": "paper_trading.risk", "message": "Risk event: Risk limit exceeded", "module": "logging_config", "function": "log_risk_event", "line": 199}
+{"timestamp": "2025-07-28T10:35:58.394148", "level": "INFO", "logger": "paper_trading.risk", "message": "Risk event: Risk limit exceeded", "module": "logging_config", "function": "log_risk_event", "line": 199}

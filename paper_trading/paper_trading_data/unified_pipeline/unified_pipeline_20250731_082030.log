@@ -1,0 +1,28 @@
+2025-07-31 08:20:30,836 - INFO - 🚀 Unified Pipeline System Started
+2025-07-31 08:20:30,836 - INFO - 📁 Results directory: paper_trading_data/unified_pipeline
+2025-07-31 08:20:30,836 - INFO - 
+================================================================================
+2025-07-31 08:20:30,836 - INFO - 🚀 COMPLETE END-TO-END PIPELINE
+2025-07-31 08:20:30,836 - INFO - ================================================================================
+2025-07-31 08:20:30,836 - INFO - 
+📊 Step 1: Data Collection
+2025-07-31 08:20:30,836 - INFO - 
+============================================================
+2025-07-31 08:20:30,836 - INFO - 📊 Data Collection Pipeline
+2025-07-31 08:20:30,836 - INFO - ============================================================
+2025-07-31 08:20:30,837 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-07-31 08:20:30,837 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-07-31 08:20:30,837 - INFO - 📊 Exchange: mexc
+2025-07-31 08:20:30,837 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-07-31 08:20:30,837 - INFO - ⏰ Timeframe: 15m
+2025-07-31 08:20:30,837 - INFO - 
+============================================================
+2025-07-31 08:20:30,837 - INFO - 📊 Collecting Comprehensive Bitcoin Data
+2025-07-31 08:20:30,837 - INFO - ============================================================
+2025-07-31 08:20:30,837 - INFO - 📅 Date range: 2023-08-01 to 2025-07-31
+2025-07-31 08:20:30,837 - INFO - 📊 Total days: 730
+2025-07-31 08:20:30,837 - INFO - 🔧 Chunk size: 30 days
+2025-07-31 08:20:30,837 - INFO - 📊 Collecting chunk: 2023-08-01 to 2023-08-31
+2025-07-31 08:20:30,839 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:31,844 - INFO - 📊 Collecting chunk: 2023-08-31 to 2023-09-30
+2025-07-31 08:20:31,848 - WARNING - ⚠️  No data collected for chunk

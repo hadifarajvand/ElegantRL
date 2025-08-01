@@ -1,0 +1,148 @@
+2025-08-01 13:56:35,950 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 13:56:35,950 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 13:56:35,950 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 13:56:35,950 - INFO - 
+================================================================================
+2025-08-01 13:56:35,950 - INFO - 🚀 STARTING UNIFIED TRAINING OF ALL AGENTS
+2025-08-01 13:56:35,950 - INFO - ================================================================================
+2025-08-01 13:56:35,950 - INFO - 
+============================================================
+2025-08-01 13:56:35,950 - INFO - 🎯 Training PPO Agent
+2025-08-01 13:56:35,950 - INFO - ============================================================
+2025-08-01 13:56:35,950 - INFO - 🔧 Creating PPO agent...
+2025-08-01 13:56:35,950 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 13:56:35,953 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 13:56:35,953 - INFO -    📈 Total records: 2,865
+2025-08-01 13:56:35,953 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 13:56:35,954 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 13:56:35,954 - INFO - 🧹 Cleaning data...
+2025-08-01 13:56:35,954 - INFO -    Removed 0 duplicates
+2025-08-01 13:56:35,955 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 13:56:35,955 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 13:56:35,955 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 13:56:35,955 - INFO - 🚀 Starting training for PPO...
+2025-08-01 13:56:35,955 - INFO -    📊 Episodes: 200
+2025-08-01 13:56:35,955 - INFO -    📈 Data points: 2,865
+2025-08-01 13:56:36,882 - ERROR - ❌ Error training PPO: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 13:56:36,882 - INFO - 
+============================================================
+2025-08-01 13:56:36,882 - INFO - 🎯 Training SAC Agent
+2025-08-01 13:56:36,882 - INFO - ============================================================
+2025-08-01 13:56:36,882 - INFO - 🔧 Creating SAC agent...
+2025-08-01 13:56:36,882 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 13:56:36,884 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 13:56:36,884 - INFO -    📈 Total records: 2,865
+2025-08-01 13:56:36,884 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 13:56:36,884 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 13:56:36,884 - INFO - 🧹 Cleaning data...
+2025-08-01 13:56:36,885 - INFO -    Removed 0 duplicates
+2025-08-01 13:56:36,886 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 13:56:36,886 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 13:56:36,886 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 13:56:36,886 - INFO - 🚀 Starting training for SAC...
+2025-08-01 13:56:36,886 - INFO -    📊 Episodes: 200
+2025-08-01 13:56:36,886 - INFO -    📈 Data points: 2,865
+2025-08-01 13:56:37,828 - ERROR - ❌ Error training SAC: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 13:56:37,828 - INFO - 
+============================================================
+2025-08-01 13:56:37,828 - INFO - 🎯 Training TD3 Agent
+2025-08-01 13:56:37,828 - INFO - ============================================================
+2025-08-01 13:56:37,828 - INFO - 🔧 Creating TD3 agent...
+2025-08-01 13:56:37,828 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 13:56:37,830 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 13:56:37,830 - INFO -    📈 Total records: 2,865
+2025-08-01 13:56:37,830 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 13:56:37,830 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 13:56:37,830 - INFO - 🧹 Cleaning data...
+2025-08-01 13:56:37,831 - INFO -    Removed 0 duplicates
+2025-08-01 13:56:37,832 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 13:56:37,832 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 13:56:37,832 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 13:56:37,832 - INFO - 🚀 Starting training for TD3...
+2025-08-01 13:56:37,832 - INFO -    📊 Episodes: 200
+2025-08-01 13:56:37,832 - INFO -    📈 Data points: 2,865
+2025-08-01 13:56:38,775 - ERROR - ❌ Error training TD3: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 13:56:38,775 - INFO - 
+============================================================
+2025-08-01 13:56:38,775 - INFO - 🎯 Training DDPG Agent
+2025-08-01 13:56:38,775 - INFO - ============================================================
+2025-08-01 13:56:38,775 - INFO - 🔧 Creating DDPG agent...
+2025-08-01 13:56:38,775 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 13:56:38,777 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 13:56:38,777 - INFO -    📈 Total records: 2,865
+2025-08-01 13:56:38,777 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 13:56:38,777 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 13:56:38,777 - INFO - 🧹 Cleaning data...
+2025-08-01 13:56:38,778 - INFO -    Removed 0 duplicates
+2025-08-01 13:56:38,779 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 13:56:38,779 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 13:56:38,779 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 13:56:38,779 - INFO - 🚀 Starting training for DDPG...
+2025-08-01 13:56:38,779 - INFO -    📊 Episodes: 200
+2025-08-01 13:56:38,779 - INFO -    📈 Data points: 2,865
+2025-08-01 13:56:39,883 - ERROR - ❌ Error training DDPG: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 13:56:39,883 - INFO - 
+============================================================
+2025-08-01 13:56:39,883 - INFO - 🎯 Training A2C Agent
+2025-08-01 13:56:39,883 - INFO - ============================================================
+2025-08-01 13:56:39,883 - INFO - 🔧 Creating A2C agent...
+2025-08-01 13:56:39,883 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 13:56:39,885 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 13:56:39,885 - INFO -    📈 Total records: 2,865
+2025-08-01 13:56:39,885 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 13:56:39,885 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 13:56:39,885 - INFO - 🧹 Cleaning data...
+2025-08-01 13:56:39,886 - INFO -    Removed 0 duplicates
+2025-08-01 13:56:39,887 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 13:56:39,887 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 13:56:39,887 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 13:56:39,887 - INFO - 🚀 Starting training for A2C...
+2025-08-01 13:56:39,887 - INFO -    📊 Episodes: 200
+2025-08-01 13:56:39,887 - INFO -    📈 Data points: 2,865
+2025-08-01 13:56:40,849 - ERROR - ❌ Error training A2C: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 13:56:40,849 - INFO - 
+============================================================
+2025-08-01 13:56:40,849 - INFO - 🎯 Training DQN Agent
+2025-08-01 13:56:40,849 - INFO - ============================================================
+2025-08-01 13:56:40,849 - INFO - 🔧 Creating DQN agent...
+2025-08-01 13:56:40,849 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 13:56:40,851 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 13:56:40,851 - INFO -    📈 Total records: 2,865
+2025-08-01 13:56:40,851 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 13:56:40,851 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 13:56:40,851 - INFO - 🧹 Cleaning data...
+2025-08-01 13:56:40,852 - INFO -    Removed 0 duplicates
+2025-08-01 13:56:40,853 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 13:56:40,853 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 13:56:40,853 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 13:56:40,853 - INFO - 🚀 Starting training for DQN...
+2025-08-01 13:56:40,853 - INFO -    📊 Episodes: 200
+2025-08-01 13:56:40,853 - INFO -    📈 Data points: 2,865
+2025-08-01 13:56:41,804 - ERROR - ❌ Error training DQN: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 13:56:41,804 - INFO - 
+============================================================
+2025-08-01 13:56:41,804 - INFO - 🎯 Training DuelingDQN Agent
+2025-08-01 13:56:41,804 - INFO - ============================================================
+2025-08-01 13:56:41,804 - INFO - 🔧 Creating DuelingDQN agent...
+2025-08-01 13:56:41,804 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 13:56:41,805 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 13:56:41,805 - INFO -    📈 Total records: 2,865
+2025-08-01 13:56:41,806 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 13:56:41,806 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 13:56:41,806 - INFO - 🧹 Cleaning data...
+2025-08-01 13:56:41,807 - INFO -    Removed 0 duplicates
+2025-08-01 13:56:41,807 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 13:56:41,807 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 13:56:41,807 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 13:56:41,807 - INFO - 🚀 Starting training for DuelingDQN...
+2025-08-01 13:56:41,808 - INFO -    📊 Episodes: 200
+2025-08-01 13:56:41,808 - INFO -    📈 Data points: 2,865
+2025-08-01 13:56:42,766 - ERROR - ❌ Error training DuelingDQN: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 13:56:42,766 - INFO - 📄 Unified training report saved: paper_trading_data/unified_training_results/unified_training_report_20250801_135642.json
+2025-08-01 13:56:42,766 - INFO - 
+================================================================================
+2025-08-01 13:56:42,766 - INFO - 🎉 UNIFIED TRAINING COMPLETED
+2025-08-01 13:56:42,766 - INFO - ⏱️  Total time: 6.82s
+2025-08-01 13:56:42,766 - INFO - 📊 Trained agents: 0
+2025-08-01 13:56:42,766 - INFO - 🔍 Evaluated agents: 0
+2025-08-01 13:56:42,767 - INFO - ================================================================================

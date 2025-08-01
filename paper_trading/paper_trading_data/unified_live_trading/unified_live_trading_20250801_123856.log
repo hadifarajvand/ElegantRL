@@ -1,0 +1,24 @@
+2025-08-01 12:38:56,622 - INFO - 🚀 Unified Live Trading System Started
+2025-08-01 12:38:56,622 - INFO - 📁 Results directory: paper_trading_data/unified_live_trading
+2025-08-01 12:38:56,622 - INFO - 📊 Exchange: mexc
+2025-08-01 12:38:56,622 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-08-01 12:38:56,622 - INFO - 💵 Initial capital: $100,000.00
+2025-08-01 12:38:56,623 - INFO - 🤖 DRL enabled: True
+2025-08-01 12:38:56,623 - INFO - 🤖 Loading DRL agent: SAC
+2025-08-01 12:38:56,623 - INFO - ✅ DRL agent loaded successfully: paper_trading_data/unified_training_results/SAC_model_20250801_123710.pt
+2025-08-01 12:38:56,623 - INFO - 
+============================================================
+2025-08-01 12:38:56,623 - INFO - 🚀 Starting Live Trading Session
+2025-08-01 12:38:56,623 - INFO - ============================================================
+2025-08-01 12:38:56,623 - INFO - ⏱️  Duration: 2 minutes
+2025-08-01 12:38:56,623 - INFO - ⏰ Interval: 60 seconds
+2025-08-01 12:38:56,623 - INFO - 🤖 DRL enabled: True
+2025-08-01 12:38:56,627 - ERROR - ❌ Error getting trading action: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 12:38:56,628 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=0
+2025-08-01 12:39:56,631 - ERROR - ❌ Error getting trading action: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 12:39:56,632 - INFO - 📊 Status: Price=$51,040.00, Value=$100,000.00, Return=0.00%, Trades=0
+2025-08-01 12:40:56,637 - INFO - 
+🎉 Trading session completed!
+2025-08-01 12:40:56,638 - INFO - ⏱️  Duration: 0:02:00.015674
+2025-08-01 12:40:56,648 - INFO - 💾 Session data saved: paper_trading_data/unified_live_trading/trading_session_20250801_124056.csv
+2025-08-01 12:40:56,649 - ERROR - ❌ Error saving session results: Object of type int64 is not JSON serializable

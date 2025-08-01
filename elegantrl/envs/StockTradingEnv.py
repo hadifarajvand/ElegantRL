@@ -231,7 +231,7 @@ class StockTradingVecEnv:
 
         self.rewards = list()
         self.total_asset = self.vmap_get_total_asset(self.close_price[self.day], self.shares, self.amount)
-        return self.get_state()
+        return self.get_state(), {}
 
     def get_state(self):
         return self.vmap_get_state((self.amount * 2 ** -18).tanh(),
@@ -308,9 +308,13 @@ class StockTradingVecEnv:
             self.cumulative_returns = (total_asset / self.initial_amount) * 100
             self.cumulative_returns = self.cumulative_returns.squeeze(1).cpu().data.tolist()
 
-        state = self.reset() if done else self.get_state()  # automatically reset in vectorized env
+        if done:
+            state, _ = self.reset()  # automatically reset in vectorized env
+        else:
+            state = self.get_state()
         done = th.tensor(done, dtype=th.bool, device=self.device).expand(self.num_envs)
-        return state, reward, done, ()
+        truncated = th.zeros_like(done)
+        return state, reward, done, truncated, {}
 
     def load_data_from_disk(self, tech_id_list=None):
         tech_id_list = [

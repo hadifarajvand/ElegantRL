@@ -1,0 +1,2 @@
+{"timestamp": "2025-07-28T10:35:36.680048", "level": "INFO", "logger": "paper_trading.training", "message": "Training event: Training started", "module": "logging_config", "function": "log_training_event", "line": 194}
+{"timestamp": "2025-07-28T10:35:58.394082", "level": "INFO", "logger": "paper_trading.training", "message": "Training event: Training started", "module": "logging_config", "function": "log_training_event", "line": 194}

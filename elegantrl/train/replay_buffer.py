@@ -165,7 +165,7 @@ class ReplayBuffer:  # for off-policy
             is_indices,  # important sampling indices
         )
 
-    def td_error_update_for_per(self, is_indices: TEN, td_error: TEN):  # td_error = (q-q).detach_().abs()
+    def td_error_update_for_per(self, is_indices: TEN, td_error: TEN):  # td_error = (q-q).detach().abs()
         prob = td_error.clamp(1e-8, 10).pow(self.per_alpha)
 
         # self.sum_tree.update_ids(is_indices.cpu(), prob.cpu())

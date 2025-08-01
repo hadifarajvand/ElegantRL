@@ -1,0 +1,21 @@
+2025-08-01 12:38:02,477 - INFO - 🚀 Unified Backtesting System Started
+2025-08-01 12:38:02,477 - INFO - 📁 Results directory: paper_trading_data/unified_backtesting
+2025-08-01 12:38:02,477 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 12:38:02,477 - INFO - 💵 Initial capital: $100,000.00
+2025-08-01 12:38:02,477 - INFO - 
+============================================================
+2025-08-01 12:38:02,477 - INFO - 🤖 Running DRL Backtest: SAC
+2025-08-01 12:38:02,477 - INFO - ============================================================
+2025-08-01 12:38:02,477 - INFO - 🤖 Loading DRL agent: SAC
+2025-08-01 12:38:02,477 - INFO - ✅ DRL agent loaded successfully
+2025-08-01 12:38:02,477 - INFO - 📊 Loading backtest data...
+2025-08-01 12:38:02,482 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 12:38:02,482 - INFO -    📈 Total records: 2,865
+2025-08-01 12:38:02,483 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 12:38:02,483 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 12:38:02,483 - INFO - 🧹 Cleaning data...
+2025-08-01 12:38:02,486 - INFO -    Removed 0 duplicates
+2025-08-01 12:38:02,487 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 12:38:02,488 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 12:38:02,488 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 12:38:02,488 - ERROR - ❌ Error running DRL backtest: unsupported operand type(s) for -: 'str' and 'datetime.timedelta'

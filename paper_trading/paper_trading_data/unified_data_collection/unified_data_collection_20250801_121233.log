@@ -1,0 +1,40 @@
+2025-08-01 12:12:33,227 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-08-01 12:12:33,227 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-08-01 12:12:33,227 - INFO - 📊 Exchange: mexc
+2025-08-01 12:12:33,227 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-08-01 12:12:33,227 - INFO - ⏰ Timeframe: 1h
+2025-08-01 12:12:33,227 - INFO - 
+🔗 Testing connection to mexc...
+2025-08-01 12:12:33,227 - INFO - ✅ Successfully connected to mexc
+2025-08-01 12:12:33,228 - INFO - 📊 Available markets: 1
+2025-08-01 12:12:33,228 - INFO - ✅ Symbol BTC/USDT:USDT is available
+2025-08-01 12:12:33,228 - INFO - 
+============================================================
+2025-08-01 12:12:33,228 - INFO - 📊 Collecting Comprehensive Bitcoin Data
+2025-08-01 12:12:33,228 - INFO - ============================================================
+2025-08-01 12:12:33,228 - INFO - 📅 Date range: 2025-05-03 to 2025-08-01
+2025-08-01 12:12:33,228 - INFO - 📊 Total days: 90
+2025-08-01 12:12:33,228 - INFO - 🔧 Chunk size: 30 days
+2025-08-01 12:12:33,228 - INFO - 📊 Collecting chunk: 2025-05-03 to 2025-06-02
+2025-08-01 12:12:33,237 - INFO - ✅ Chunk collected: 720 records
+2025-08-01 12:12:34,243 - INFO - 📊 Collecting chunk: 2025-06-02 to 2025-07-02
+2025-08-01 12:12:34,251 - INFO - ✅ Chunk collected: 720 records
+2025-08-01 12:12:35,254 - INFO - 📊 Collecting chunk: 2025-07-02 to 2025-08-01
+2025-08-01 12:12:35,257 - INFO - ✅ Chunk collected: 720 records
+2025-08-01 12:12:36,264 - INFO - 🧹 Cleaning and validating data...
+2025-08-01 12:12:36,267 - INFO -    Removed 0 duplicates
+2025-08-01 12:12:36,269 - INFO -    Removed rows with missing values: 2,160 records remaining
+2025-08-01 12:12:36,269 - INFO -    Validated price data: 2,160 records remaining
+2025-08-01 12:12:36,271 - INFO -    Validated OHLC relationships: 2,160 records remaining
+2025-08-01 12:12:36,273 - INFO -    Removed outliers: 2,035 records remaining
+2025-08-01 12:12:36,285 - INFO - 💾 CSV file saved: paper_trading_data/unified_data_collection/bitcoin_1h_20250503_20250801.csv
+2025-08-01 12:12:36,323 - INFO - 💾 Parquet file saved: paper_trading_data/unified_data_collection/bitcoin_1h_20250503_20250801.parquet
+2025-08-01 12:12:36,323 - INFO - 💾 Metadata saved: paper_trading_data/unified_data_collection/bitcoin_1h_20250503_20250801_metadata.json
+2025-08-01 12:12:36,323 - INFO - 
+📊 Data Quality Analysis:
+2025-08-01 12:12:36,323 - INFO -    📈 Total records: 2,035
+2025-08-01 12:12:36,323 - INFO -    📅 Date range: 2025-05-03 12:42:33.228000 to 2025-08-01 11:42:33.228000
+2025-08-01 12:12:36,323 - INFO -    💰 Price range: $34,415.88 - $86,373.61
+2025-08-01 12:12:36,323 - INFO -    📊 Volume range: 500,958 - 1,999,956
+2025-08-01 12:12:36,324 - WARNING -    ⚠️  Found 2034 time gaps in data
+2025-08-01 12:12:36,325 - WARNING -    ⚠️  Found 1 large price changes (>10%)

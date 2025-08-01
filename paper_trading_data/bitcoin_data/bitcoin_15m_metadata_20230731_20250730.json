@@ -1,0 +1,24 @@
+{
+  "symbol": "BTC/USDT:USDT",
+  "timeframe": "15m",
+  "exchange": "mexc",
+  "start_date": "2023-07-31T21:11:37.793379",
+  "end_date": "2025-07-30T21:11:37.793379",
+  "total_records": 42902,
+  "price_range": {
+    "min": 24999.4,
+    "max": 120228.2,
+    "mean": 67629.4238776747,
+    "std": 25923.189947752726
+  },
+  "volume_stats": {
+    "total_volume": 365805250154.0,
+    "mean_volume": 8526531.400727239,
+    "max_volume": 78028243.0
+  },
+  "collection_date": "2025-07-30T21:12:34.634422",
+  "file_paths": {
+    "parquet": "paper_trading_data/bitcoin_data/bitcoin_15m_combined_20230731_20250730.parquet",
+    "csv": "paper_trading_data/bitcoin_data/bitcoin_15m_combined_20230731_20250730.csv"
+  }
+}

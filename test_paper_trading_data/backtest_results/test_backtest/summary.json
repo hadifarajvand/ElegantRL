@@ -1,0 +1,10 @@
+{
+  "strategy_1": {
+    "total_return": 0.15,
+    "sharpe_ratio": 1.2
+  },
+  "strategy_2": {
+    "total_return": 0.12,
+    "sharpe_ratio": 1.1
+  }
+}

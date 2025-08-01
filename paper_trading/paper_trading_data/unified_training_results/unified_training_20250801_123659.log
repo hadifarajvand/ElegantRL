@@ -1,0 +1,51 @@
+2025-08-01 12:36:59,295 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 12:36:59,295 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 12:36:59,295 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 12:36:59,295 - INFO - 
+============================================================
+2025-08-01 12:36:59,296 - INFO - 🎯 Training DDPG Agent
+2025-08-01 12:36:59,296 - INFO - ============================================================
+2025-08-01 12:36:59,296 - INFO - 🔧 Creating DDPG agent...
+2025-08-01 12:36:59,296 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 12:36:59,300 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 12:36:59,300 - INFO -    📈 Total records: 2,865
+2025-08-01 12:36:59,301 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 12:36:59,302 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 12:36:59,302 - INFO - 🧹 Cleaning data...
+2025-08-01 12:36:59,304 - INFO -    Removed 0 duplicates
+2025-08-01 12:36:59,304 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 12:36:59,305 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 12:36:59,305 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 12:36:59,305 - INFO - 🚀 Starting training for DDPG...
+2025-08-01 12:36:59,305 - INFO -    📊 Episodes: 5
+2025-08-01 12:36:59,305 - INFO -    📈 Data points: 2,865
+2025-08-01 12:36:59,498 - INFO - 
+📊 DDPG Training Summary:
+2025-08-01 12:36:59,498 - INFO -    ⏱️  Total time: 0.20s
+2025-08-01 12:36:59,498 - INFO -    🎯 Final reward: -0.002
+2025-08-01 12:36:59,498 - INFO -    📈 Average reward: 0.001
+2025-08-01 12:36:59,498 - INFO -    🔝 Max reward: 0.031
+2025-08-01 12:36:59,498 - INFO -    🔻 Min reward: -0.018
+2025-08-01 12:36:59,498 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/DDPG_model_20250801_123659.pt
+2025-08-01 12:36:59,498 - INFO - 
+============================================================
+2025-08-01 12:36:59,498 - INFO - 🔍 Evaluating DDPG Agent
+2025-08-01 12:36:59,498 - INFO - ============================================================
+2025-08-01 12:36:59,498 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 12:36:59,500 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 12:36:59,500 - INFO -    📈 Total records: 2,865
+2025-08-01 12:36:59,501 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 12:36:59,501 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 12:36:59,501 - INFO - 🧹 Cleaning data...
+2025-08-01 12:36:59,501 - INFO -    Removed 0 duplicates
+2025-08-01 12:36:59,502 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 12:36:59,502 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 12:36:59,502 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 12:36:59,502 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 12:36:59,502 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 12:36:59,514 - INFO - 📊 DDPG Evaluation Results:
+2025-08-01 12:36:59,514 - INFO -    💰 Total return: 31.832
+2025-08-01 12:36:59,514 - INFO -    📈 Average return: 0.111
+2025-08-01 12:36:59,514 - INFO -    🔄 Total trades: 259
+2025-08-01 12:36:59,514 - INFO -    ✅ Wins: 143
+2025-08-01 12:36:59,514 - INFO -    🎯 Win rate: 55.21%

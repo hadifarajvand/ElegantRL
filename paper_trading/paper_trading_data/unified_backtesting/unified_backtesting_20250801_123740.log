@@ -1,0 +1,13 @@
+2025-08-01 12:37:40,512 - INFO - 🚀 Unified Backtesting System Started
+2025-08-01 12:37:40,512 - INFO - 📁 Results directory: paper_trading_data/unified_backtesting
+2025-08-01 12:37:40,512 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 12:37:40,512 - INFO - 💵 Initial capital: $100,000.00
+2025-08-01 12:37:40,512 - INFO - 
+============================================================
+2025-08-01 12:37:40,512 - INFO - 🤖 Running DRL Backtest: SAC
+2025-08-01 12:37:40,512 - INFO - ============================================================
+2025-08-01 12:37:40,512 - INFO - 🤖 Loading DRL agent: SAC
+2025-08-01 12:37:40,512 - INFO - ✅ DRL agent loaded successfully
+2025-08-01 12:37:40,512 - INFO - 📊 Loading backtest data...
+2025-08-01 12:37:40,567 - ERROR - ❌ Error loading data: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2025-08-01 12:37:40,567 - ERROR - ❌ Failed to load data for backtesting

@@ -1,0 +1,8 @@
+2025-07-26 23:38:51,588 - test_levels - DEBUG - This is a DEBUG message
+2025-07-26 23:38:51,588 - test_levels - INFO - This is an INFO message
+2025-07-26 23:38:51,588 - test_levels - WARNING - This is a WARNING message
+2025-07-26 23:38:51,588 - test_levels - ERROR - This is an ERROR message
+2025-07-27 16:24:42,797 - test_levels - DEBUG - This is a DEBUG message
+2025-07-27 16:24:42,798 - test_levels - INFO - This is an INFO message
+2025-07-27 16:24:42,798 - test_levels - WARNING - This is a WARNING message
+2025-07-27 16:24:42,798 - test_levels - ERROR - This is an ERROR message

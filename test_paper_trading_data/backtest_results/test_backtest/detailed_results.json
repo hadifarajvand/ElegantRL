@@ -1,0 +1,16 @@
+{
+  "strategy_1": {
+    "portfolio_values": [
+      100000,
+      101000,
+      102000
+    ]
+  },
+  "strategy_2": {
+    "portfolio_values": [
+      100000,
+      100500,
+      101200
+    ]
+  }
+}

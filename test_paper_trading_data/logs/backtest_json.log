@@ -1,0 +1,2 @@
+{"timestamp": "2025-07-28T10:35:36.679976", "level": "INFO", "logger": "paper_trading.backtest", "message": "Backtest event: Backtest completed", "module": "logging_config", "function": "log_backtest_event", "line": 189, "total_return": 0.15, "sharpe_ratio": 1.2}
+{"timestamp": "2025-07-28T10:35:58.394014", "level": "INFO", "logger": "paper_trading.backtest", "message": "Backtest event: Backtest completed", "module": "logging_config", "function": "log_backtest_event", "line": 189, "total_return": 0.15, "sharpe_ratio": 1.2}

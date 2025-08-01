@@ -54,7 +54,7 @@ class AgentDQN(AgentBase):
         else:
             obj_critic = td_error.mean()
         if self.lambda_fit_cum_r != 0:
-            cum_reward_mean = buffer.cum_rewards[buffer.ids0, buffer.ids1].detach_().mean()
+            cum_reward_mean = buffer.cum_rewards[buffer.ids0, buffer.ids1].detach().mean()
             obj_critic += self.criterion(cum_reward_mean, q_value.mean()) * self.lambda_fit_cum_r
         self.optimizer_backward(self.cri_optimizer, obj_critic)
         self.soft_update(self.cri_target, self.cri, self.soft_update_tau)
@@ -116,7 +116,7 @@ class AgentDoubleDQN(AgentDQN):
         else:
             obj_critic = td_error.mean()
         if self.lambda_fit_cum_r != 0:
-            cum_reward_mean = buffer.cum_rewards[buffer.ids0, buffer.ids1].detach_().mean()
+            cum_reward_mean = buffer.cum_rewards[buffer.ids0, buffer.ids1].detach().mean()
             obj_critic += (self.criterion(cum_reward_mean, q_value1.mean()) +
                            self.criterion(cum_reward_mean, q_value2.mean()))
         self.optimizer_backward(self.cri_optimizer, obj_critic)

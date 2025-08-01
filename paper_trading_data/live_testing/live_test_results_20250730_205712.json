@@ -1,0 +1,41 @@
+{
+  "test_info": {
+    "model_path": "paper_trading_data/bitcoin_training/bitcoin_drl_final_mexc_20250730_205616.pth",
+    "exchange": "mexc",
+    "symbol": "BTC/USDT:USDT",
+    "start_time": "2025-07-30T20:56:27.181322",
+    "end_time": "2025-07-30T20:57:12.346140",
+    "duration_hours": 1.0,
+    "initial_capital": 100000
+  },
+  "final_results": {
+    "final_portfolio_value": 109990.0,
+    "total_return": 9.99,
+    "total_trades": 1,
+    "final_price": 117762.9
+  },
+  "portfolio_history": [
+    {
+      "timestamp": "2025-07-30T20:56:28.783308",
+      "portfolio_value": 109990.0,
+      "current_price": 117762.9,
+      "return": 0.0999,
+      "total_trades": 1
+    }
+  ],
+  "trade_history": [
+    {
+      "timestamp": "2025-07-30T20:56:28.783266",
+      "action": "sell",
+      "price": 117762.9,
+      "quantity": 0.08491638707946221,
+      "value": 10000.0,
+      "portfolio_value": 100000,
+      "return": 0.0,
+      "transaction_cost": 10.0
+    }
+  ],
+  "price_history": [
+    117762.9
+  ]
+}

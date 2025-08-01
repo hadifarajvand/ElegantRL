@@ -1,0 +1,60 @@
+2025-08-01 11:52:00,195 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-08-01 11:52:00,195 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-08-01 11:52:00,195 - INFO - 📊 Exchange: mexc
+2025-08-01 11:52:00,195 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-08-01 11:52:00,195 - INFO - ⏰ Timeframe: 1d
+2025-08-01 11:52:00,195 - INFO - 
+🔗 Testing connection to mexc...
+2025-08-01 11:52:00,195 - INFO - ✅ Successfully connected to mexc
+2025-08-01 11:52:00,195 - INFO - 📊 Available markets: 1
+2025-08-01 11:52:00,195 - INFO - ✅ Symbol BTC/USDT:USDT is available
+2025-08-01 11:52:00,195 - INFO - 
+============================================================
+2025-08-01 11:52:00,195 - INFO - 📊 Collecting Comprehensive Bitcoin Data
+2025-08-01 11:52:00,195 - INFO - ============================================================
+2025-08-01 11:52:00,195 - INFO - 📅 Date range: 2024-08-01 to 2025-08-01
+2025-08-01 11:52:00,195 - INFO - 📊 Total days: 365
+2025-08-01 11:52:00,195 - INFO - 🔧 Chunk size: 30 days
+2025-08-01 11:52:00,195 - INFO - 📊 Collecting chunk: 2024-08-01 to 2024-08-31
+2025-08-01 11:52:00,204 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:01,209 - INFO - 📊 Collecting chunk: 2024-08-31 to 2024-09-30
+2025-08-01 11:52:01,212 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:02,214 - INFO - 📊 Collecting chunk: 2024-09-30 to 2024-10-30
+2025-08-01 11:52:02,218 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:03,223 - INFO - 📊 Collecting chunk: 2024-10-30 to 2024-11-29
+2025-08-01 11:52:03,226 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:04,231 - INFO - 📊 Collecting chunk: 2024-11-29 to 2024-12-29
+2025-08-01 11:52:04,233 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:05,239 - INFO - 📊 Collecting chunk: 2024-12-29 to 2025-01-28
+2025-08-01 11:52:05,242 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:06,246 - INFO - 📊 Collecting chunk: 2025-01-28 to 2025-02-27
+2025-08-01 11:52:06,249 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:07,250 - INFO - 📊 Collecting chunk: 2025-02-27 to 2025-03-29
+2025-08-01 11:52:07,253 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:08,258 - INFO - 📊 Collecting chunk: 2025-03-29 to 2025-04-28
+2025-08-01 11:52:08,264 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:09,269 - INFO - 📊 Collecting chunk: 2025-04-28 to 2025-05-28
+2025-08-01 11:52:09,272 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:10,277 - INFO - 📊 Collecting chunk: 2025-05-28 to 2025-06-27
+2025-08-01 11:52:10,280 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:11,286 - INFO - 📊 Collecting chunk: 2025-06-27 to 2025-07-27
+2025-08-01 11:52:11,288 - INFO - ✅ Chunk collected: 30 records
+2025-08-01 11:52:12,293 - INFO - 📊 Collecting chunk: 2025-07-27 to 2025-08-01
+2025-08-01 11:52:12,297 - INFO - ✅ Chunk collected: 5 records
+2025-08-01 11:52:13,303 - INFO - 🧹 Cleaning and validating data...
+2025-08-01 11:52:13,306 - INFO -    Removed 0 duplicates
+2025-08-01 11:52:13,306 - INFO -    Removed rows with missing values: 365 records remaining
+2025-08-01 11:52:13,307 - INFO -    Validated price data: 365 records remaining
+2025-08-01 11:52:13,307 - INFO -    Validated OHLC relationships: 365 records remaining
+2025-08-01 11:52:13,308 - INFO -    Removed outliers: 359 records remaining
+2025-08-01 11:52:13,311 - INFO - 💾 CSV file saved: paper_trading_data/unified_data_collection/bitcoin_1d_20240801_20250801.csv
+2025-08-01 11:52:13,342 - INFO - 💾 Parquet file saved: paper_trading_data/unified_data_collection/bitcoin_1d_20240801_20250801.parquet
+2025-08-01 11:52:13,342 - INFO - 💾 Metadata saved: paper_trading_data/unified_data_collection/bitcoin_1d_20240801_20250801_metadata.json
+2025-08-01 11:52:13,342 - INFO - 
+📊 Data Quality Analysis:
+2025-08-01 11:52:13,342 - INFO -    📈 Total records: 359
+2025-08-01 11:52:13,342 - INFO -    📅 Date range: 2024-08-02 08:22:00.195000 to 2025-08-01 08:22:00.195000
+2025-08-01 11:52:13,342 - INFO -    💰 Price range: $40,852.12 - $56,491.44
+2025-08-01 11:52:13,342 - INFO -    📊 Volume range: 505,654 - 1,993,489
+2025-08-01 11:52:13,343 - WARNING -    ⚠️  Found 358 time gaps in data
+2025-08-01 11:52:13,344 - WARNING -    ⚠️  Found 4 large price changes (>10%)

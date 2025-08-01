@@ -1,0 +1,17 @@
+{
+  "exchange": "mexc",
+  "symbol": "BTC/USDT:USDT",
+  "timeframe": "15m",
+  "start_date": "2025-07-25T10:17:38.799924",
+  "end_date": "2025-08-01T10:17:38.799924",
+  "total_records": 14,
+  "price_range": {
+    "min": 50050.0,
+    "max": 50180.0
+  },
+  "volume_range": {
+    "min": 1000000.0,
+    "max": 1013000.0
+  },
+  "collection_timestamp": "2025-08-01T10:17:39.862637"
+}

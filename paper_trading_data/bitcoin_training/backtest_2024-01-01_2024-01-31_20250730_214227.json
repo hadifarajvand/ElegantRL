@@ -1,0 +1,9 @@
+{
+  "start_date": "2024-01-01",
+  "end_date": "2024-01-31",
+  "initial_value": 100000,
+  "final_value": 108500,
+  "total_return": 8.5,
+  "total_trades": 15,
+  "model_path": "paper_trading_data/bitcoin_training/bitcoin_drl_final_mexc_20250730_214055.pth"
+}

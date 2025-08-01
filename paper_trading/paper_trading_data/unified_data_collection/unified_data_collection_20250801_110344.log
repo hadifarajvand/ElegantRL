@@ -1,0 +1,84 @@
+2025-08-01 11:03:44,970 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-08-01 11:03:44,970 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-08-01 11:03:44,970 - INFO - 📊 Exchange: mexc
+2025-08-01 11:03:44,970 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-08-01 11:03:44,970 - INFO - ⏰ Timeframe: 15m
+2025-08-01 11:03:44,970 - INFO - 
+🔗 Testing connection to mexc...
+2025-08-01 11:03:44,970 - INFO - ✅ Successfully connected to mexc
+2025-08-01 11:03:44,970 - INFO - 📊 Available markets: 1
+2025-08-01 11:03:44,970 - INFO - ✅ Symbol BTC/USDT:USDT is available
+2025-08-01 11:03:44,970 - INFO - 
+============================================================
+2025-08-01 11:03:44,970 - INFO - 📊 Collecting Comprehensive Bitcoin Data
+2025-08-01 11:03:44,970 - INFO - ============================================================
+2025-08-01 11:03:44,970 - INFO - 📅 Date range: 2023-08-02 to 2025-08-01
+2025-08-01 11:03:44,970 - INFO - 📊 Total days: 730
+2025-08-01 11:03:44,970 - INFO - 🔧 Chunk size: 30 days
+2025-08-01 11:03:44,970 - INFO - 📊 Collecting chunk: 2023-08-02 to 2023-09-01
+2025-08-01 11:03:44,978 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:45,983 - INFO - 📊 Collecting chunk: 2023-09-01 to 2023-10-01
+2025-08-01 11:03:45,986 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:46,992 - INFO - 📊 Collecting chunk: 2023-10-01 to 2023-10-31
+2025-08-01 11:03:46,996 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:48,002 - INFO - 📊 Collecting chunk: 2023-10-31 to 2023-11-30
+2025-08-01 11:03:48,006 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:49,012 - INFO - 📊 Collecting chunk: 2023-11-30 to 2023-12-30
+2025-08-01 11:03:49,017 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:50,022 - INFO - 📊 Collecting chunk: 2023-12-30 to 2024-01-29
+2025-08-01 11:03:50,025 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:51,028 - INFO - 📊 Collecting chunk: 2024-01-29 to 2024-02-28
+2025-08-01 11:03:51,032 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:52,038 - INFO - 📊 Collecting chunk: 2024-02-28 to 2024-03-29
+2025-08-01 11:03:52,042 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:53,043 - INFO - 📊 Collecting chunk: 2024-03-29 to 2024-04-28
+2025-08-01 11:03:53,049 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:54,054 - INFO - 📊 Collecting chunk: 2024-04-28 to 2024-05-28
+2025-08-01 11:03:54,058 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:55,063 - INFO - 📊 Collecting chunk: 2024-05-28 to 2024-06-27
+2025-08-01 11:03:55,066 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:56,071 - INFO - 📊 Collecting chunk: 2024-06-27 to 2024-07-27
+2025-08-01 11:03:56,074 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:57,079 - INFO - 📊 Collecting chunk: 2024-07-27 to 2024-08-26
+2025-08-01 11:03:57,082 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:58,085 - INFO - 📊 Collecting chunk: 2024-08-26 to 2024-09-25
+2025-08-01 11:03:58,087 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:03:59,092 - INFO - 📊 Collecting chunk: 2024-09-25 to 2024-10-25
+2025-08-01 11:03:59,094 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:00,094 - INFO - 📊 Collecting chunk: 2024-10-25 to 2024-11-24
+2025-08-01 11:04:00,096 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:01,099 - INFO - 📊 Collecting chunk: 2024-11-24 to 2024-12-24
+2025-08-01 11:04:01,101 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:02,106 - INFO - 📊 Collecting chunk: 2024-12-24 to 2025-01-23
+2025-08-01 11:04:02,108 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:03,111 - INFO - 📊 Collecting chunk: 2025-01-23 to 2025-02-22
+2025-08-01 11:04:03,114 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:04,120 - INFO - 📊 Collecting chunk: 2025-02-22 to 2025-03-24
+2025-08-01 11:04:04,123 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:05,128 - INFO - 📊 Collecting chunk: 2025-03-24 to 2025-04-23
+2025-08-01 11:04:05,129 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:06,135 - INFO - 📊 Collecting chunk: 2025-04-23 to 2025-05-23
+2025-08-01 11:04:06,136 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:07,141 - INFO - 📊 Collecting chunk: 2025-05-23 to 2025-06-22
+2025-08-01 11:04:07,143 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:08,148 - INFO - 📊 Collecting chunk: 2025-06-22 to 2025-07-22
+2025-08-01 11:04:08,153 - WARNING - ⚠️  No data collected for chunk
+2025-08-01 11:04:09,158 - INFO - 📊 Collecting chunk: 2025-07-22 to 2025-08-01
+2025-08-01 11:04:09,162 - INFO - ✅ Chunk collected: 14 records
+2025-08-01 11:04:10,170 - INFO - 🧹 Cleaning and validating data...
+2025-08-01 11:04:10,173 - INFO -    Removed 0 duplicates
+2025-08-01 11:04:10,174 - INFO -    Removed rows with missing values: 14 records remaining
+2025-08-01 11:04:10,175 - INFO -    Validated price data: 14 records remaining
+2025-08-01 11:04:10,175 - INFO -    Validated OHLC relationships: 14 records remaining
+2025-08-01 11:04:10,177 - INFO -    Removed outliers: 14 records remaining
+2025-08-01 11:04:10,211 - INFO - 💾 Parquet file saved: paper_trading_data/unified_data_collection/bitcoin_15m_combined_20230802_20250801.parquet
+2025-08-01 11:04:10,213 - INFO - 💾 CSV file saved: paper_trading_data/unified_data_collection/bitcoin_15m_combined_20230802_20250801.csv
+2025-08-01 11:04:10,213 - INFO - 💾 Metadata saved: paper_trading_data/unified_data_collection/bitcoin_15m_metadata_20230802_20250801.json
+2025-08-01 11:04:10,213 - INFO - 
+📊 Data Quality Analysis:
+2025-08-01 11:04:10,213 - INFO -    📈 Total records: 14
+2025-08-01 11:04:10,213 - INFO -    📅 Date range: 2025-08-01 07:34:09.159000 to 2025-08-01 10:49:09.159000
+2025-08-01 11:04:10,213 - INFO -    💰 Price range: $50,050.00 - $50,180.00
+2025-08-01 11:04:10,213 - INFO -    📊 Volume range: 1,000,000 - 1,013,000
+2025-08-01 11:04:10,214 - INFO -    ✅ No significant time gaps found
+2025-08-01 11:04:10,215 - INFO -    ✅ Price changes are within normal range

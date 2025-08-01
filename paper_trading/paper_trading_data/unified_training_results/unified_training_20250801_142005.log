@@ -1,0 +1,74 @@
+2025-08-01 14:20:05,417 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 14:20:05,418 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 14:20:05,418 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 14:20:05,418 - INFO - 
+============================================================
+2025-08-01 14:20:05,419 - INFO - 🎯 Training SAC Agent
+2025-08-01 14:20:05,419 - INFO - ============================================================
+2025-08-01 14:20:05,419 - INFO - 🔧 Creating SAC agent...
+2025-08-01 14:20:05,419 - INFO - ✅ SAC agent created successfully
+2025-08-01 14:20:05,419 - INFO - 📊 Loading data for SAC...
+2025-08-01 14:20:05,419 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:20:05,430 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:20:05,430 - INFO -    📈 Total records: 2,865
+2025-08-01 14:20:05,433 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:20:05,435 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:20:05,435 - INFO - 🧹 Cleaning data...
+2025-08-01 14:20:05,442 - INFO -    Removed 0 duplicates
+2025-08-01 14:20:05,446 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:20:05,447 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:20:05,447 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:20:05,447 - INFO - ✅ Data loaded successfully for SAC
+2025-08-01 14:20:05,447 - INFO - 🚀 Starting training for SAC...
+2025-08-01 14:20:05,447 - INFO -    📊 Episodes: 5
+2025-08-01 14:20:05,447 - INFO -    📈 Data points: 2,865
+2025-08-01 14:20:05,447 - INFO -    🎯 Agent type: SAC
+2025-08-01 14:20:05,447 - INFO -    ⏰ Start time: 14:20:05
+2025-08-01 14:20:05,448 - INFO - 🔄 Starting 5 training episodes for SAC...
+2025-08-01 14:20:05,646 - INFO -    📊 Episode   1/5: Reward:  0.032, Avg (last 5):  0.032, Time: 0.197s
+2025-08-01 14:20:05,817 - INFO -    📈 Episode   2/5: Reward: -0.017
+2025-08-01 14:20:05,969 - INFO -    📈 Episode   3/5: Reward: -0.042
+2025-08-01 14:20:06,213 - INFO -    📈 Episode   4/5: Reward: -0.023
+2025-08-01 14:20:06,954 - INFO -    📊 Episode   5/5: Reward: -0.044, Avg (last 5): -0.018, Time: 0.739s
+2025-08-01 14:20:06,954 - INFO - 
+📊 SAC Training Summary:
+2025-08-01 14:20:06,954 - INFO -    ⏱️  Total time: 1.54s
+2025-08-01 14:20:06,955 - INFO -    🎯 Final reward: -0.044
+2025-08-01 14:20:06,955 - INFO -    📈 Average reward: -0.018
+2025-08-01 14:20:06,955 - INFO -    🔝 Max reward: 0.032
+2025-08-01 14:20:06,955 - INFO -    🔻 Min reward: -0.044
+2025-08-01 14:20:06,955 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/SAC_model_20250801_142006.pt
+2025-08-01 14:20:06,955 - INFO - 
+============================================================
+2025-08-01 14:20:06,955 - INFO - 🔍 Evaluating SAC Agent
+2025-08-01 14:20:06,955 - INFO - ============================================================
+2025-08-01 14:20:06,955 - INFO - 🤖 Loading SAC agent from paper_trading_data/unified_training_results/SAC_model_20250801_142006.pt...
+2025-08-01 14:20:06,955 - INFO - ✅ SAC agent loaded successfully
+2025-08-01 14:20:06,955 - INFO - 📊 Loading evaluation data for SAC...
+2025-08-01 14:20:06,956 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:20:06,966 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:20:06,967 - INFO -    📈 Total records: 2,865
+2025-08-01 14:20:06,967 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:20:06,970 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:20:06,970 - INFO - 🧹 Cleaning data...
+2025-08-01 14:20:06,989 - INFO -    Removed 0 duplicates
+2025-08-01 14:20:06,994 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:20:06,996 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:20:06,996 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:20:06,996 - INFO - ✅ Evaluation data loaded for SAC
+2025-08-01 14:20:06,996 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:20:06,997 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:20:06,997 - INFO - 🎯 Testing SAC on 286 data points...
+2025-08-01 14:20:06,997 - INFO - 🔄 Running evaluation simulation for SAC...
+2025-08-01 14:20:07,061 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:20:07,081 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:20:07,099 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:20:07,116 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:20:07,129 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:20:07,145 - INFO - ✅ Evaluation simulation completed for SAC
+2025-08-01 14:20:07,145 - INFO - 📊 SAC Evaluation Results:
+2025-08-01 14:20:07,145 - INFO -    💰 Total return: 37.658
+2025-08-01 14:20:07,145 - INFO -    📈 Average return: 0.132
+2025-08-01 14:20:07,145 - INFO -    🔄 Total trades: 261
+2025-08-01 14:20:07,145 - INFO -    ✅ Wins: 147
+2025-08-01 14:20:07,145 - INFO -    🎯 Win rate: 56.32%

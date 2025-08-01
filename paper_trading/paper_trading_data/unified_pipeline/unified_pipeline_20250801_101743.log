@@ -1,0 +1,32 @@
+2025-08-01 10:17:43,436 - INFO - 🚀 Unified Pipeline System Started
+2025-08-01 10:17:43,436 - INFO - 📁 Results directory: paper_trading_data/unified_pipeline
+2025-08-01 10:17:43,436 - INFO - 
+============================================================
+2025-08-01 10:17:43,436 - INFO - 🎯 Training Pipeline: SAC
+2025-08-01 10:17:43,436 - INFO - ============================================================
+2025-08-01 10:17:44,292 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 10:17:44,292 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 10:17:44,292 - INFO - 📊 Data path: ../paper_trading_data/bitcoin_data/bitcoin_15m_combined_20230731_20250730.parquet
+2025-08-01 10:17:44,292 - INFO - 
+============================================================
+2025-08-01 10:17:44,292 - INFO - 🎯 Training SAC Agent
+2025-08-01 10:17:44,292 - INFO - ============================================================
+2025-08-01 10:17:44,292 - INFO - 🔧 Creating SAC agent...
+2025-08-01 10:17:44,292 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 10:17:44,347 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 10:17:44,348 - INFO -    📈 Total records: 42,902
+2025-08-01 10:17:44,348 - INFO -    📅 Date range: 2023-08-01 22:15:00 to 2025-07-30 00:00:00
+2025-08-01 10:17:44,348 - INFO -    💰 Price range: $24,999.40 - $120,228.20
+2025-08-01 10:17:44,348 - INFO - 🧹 Cleaning data...
+2025-08-01 10:17:44,370 - INFO -    Removed 0 duplicates
+2025-08-01 10:17:44,374 - INFO -    Removed rows with missing values: 42,902 records remaining
+2025-08-01 10:17:44,376 - INFO -    Validated price data: 42,902 records remaining
+2025-08-01 10:17:44,376 - INFO - ✅ Data cleaned successfully: 42,902 records
+2025-08-01 10:17:44,376 - INFO - 🚀 Starting training for SAC...
+2025-08-01 10:17:44,376 - INFO -    📊 Episodes: 5
+2025-08-01 10:17:44,376 - INFO -    📈 Data points: 42,902
+2025-08-01 10:17:44,669 - INFO - 
+📊 SAC Training Summary:
+2025-08-01 10:17:44,669 - INFO -    ⏱️  Total time: 0.38s
+2025-08-01 10:17:44,669 - ERROR - ❌ Error training SAC: unsupported format string passed to numpy.ndarray.__format__
+2025-08-01 10:17:44,670 - ERROR - ❌ Training pipeline failed

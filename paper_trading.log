@@ -1,0 +1,5 @@
+2025-07-26 23:28:47,420 - __main__ - INFO - Starting model training...
+2025-07-26 23:28:47,421 - __main__ - INFO - Fetching data for symbols: ['AAPL']
+2025-07-26 23:28:47,694 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-07-26 23:28:47,927 - paper_trading.data.market_data - ERROR - Error fetching data for AAPL: Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-07-26 23:28:47,929 - __main__ - ERROR - No data retrieved. Exiting.

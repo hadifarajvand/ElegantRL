@@ -1,0 +1,268 @@
+{
+  "timestamp": "2025-08-01T14:24:56.717547",
+  "training_results": {
+    "PPO": {
+      "agent_type": "PPO",
+      "episodes": 3,
+      "total_time": 0.18999505043029785,
+      "final_reward": 0.0011531012597555588,
+      "avg_reward": 0.001279933766734235,
+      "max_reward": 0.04112434783184261,
+      "min_reward": -0.03843764779139546,
+      "training_rewards": [
+        [
+          -0.03843764779139546
+        ],
+        [
+          0.04112434783184261
+        ],
+        [
+          0.0011531012597555588
+        ]
+      ],
+      "episode_times": [
+        0.06034111976623535,
+        0.058130741119384766,
+        0.05783414840698242
+      ],
+      "model_path": "paper_trading_data/unified_training_results/PPO_model_20250801_142454.pt"
+    },
+    "SAC": {
+      "agent_type": "SAC",
+      "episodes": 3,
+      "total_time": 0.4085829257965088,
+      "final_reward": 0.04899062915349217,
+      "avg_reward": 0.025613837285636456,
+      "max_reward": 0.04899062915349217,
+      "min_reward": 0.010765888863320342,
+      "training_rewards": [
+        [
+          0.01708499384009685
+        ],
+        [
+          0.010765888863320342
+        ],
+        [
+          0.04899062915349217
+        ]
+      ],
+      "episode_times": [
+        0.26016712188720703,
+        0.07733726501464844,
+        0.06418514251708984
+      ],
+      "model_path": "paper_trading_data/unified_training_results/SAC_model_20250801_142455.pt"
+    },
+    "TD3": {
+      "agent_type": "TD3",
+      "episodes": 3,
+      "total_time": 0.2347240447998047,
+      "final_reward": 0.01633212830392884,
+      "avg_reward": 0.01117991312613792,
+      "max_reward": 0.01633212830392884,
+      "min_reward": 0.0081520187870907,
+      "training_rewards": [
+        [
+          0.0081520187870907
+        ],
+        [
+          0.009055592287394216
+        ],
+        [
+          0.01633212830392884
+        ]
+      ],
+      "episode_times": [
+        0.0672309398651123,
+        0.07649874687194824,
+        0.07969522476196289
+      ],
+      "model_path": "paper_trading_data/unified_training_results/TD3_model_20250801_142455.pt"
+    },
+    "DDPG": {
+      "agent_type": "DDPG",
+      "episodes": 3,
+      "total_time": 0.23503804206848145,
+      "final_reward": -0.02629943011483848,
+      "avg_reward": -0.0010789377094010642,
+      "max_reward": 0.05508109712675176,
+      "min_reward": -0.03201848014011647,
+      "training_rewards": [
+        [
+          0.05508109712675176
+        ],
+        [
+          -0.03201848014011647
+        ],
+        [
+          -0.02629943011483848
+        ]
+      ],
+      "episode_times": [
+        0.0783848762512207,
+        0.07526969909667969,
+        0.07204198837280273
+      ],
+      "model_path": "paper_trading_data/unified_training_results/DDPG_model_20250801_142455.pt"
+    },
+    "A2C": {
+      "agent_type": "A2C",
+      "episodes": 3,
+      "total_time": 0.21895503997802734,
+      "final_reward": -0.009805308921109628,
+      "avg_reward": -0.01253264229248995,
+      "max_reward": 0.01436971578058214,
+      "min_reward": -0.042162333736942365,
+      "training_rewards": [
+        [
+          0.01436971578058214
+        ],
+        [
+          -0.042162333736942365
+        ],
+        [
+          -0.009805308921109628
+        ]
+      ],
+      "episode_times": [
+        0.07387304306030273,
+        0.06874585151672363,
+        0.06922078132629395
+      ],
+      "model_path": "paper_trading_data/unified_training_results/A2C_model_20250801_142456.pt"
+    },
+    "DQN": {
+      "agent_type": "DQN",
+      "episodes": 3,
+      "total_time": 0.21990609169006348,
+      "final_reward": -0.02830736676906382,
+      "avg_reward": -0.006602559762851623,
+      "max_reward": 0.012909134709688621,
+      "min_reward": -0.02830736676906382,
+      "training_rewards": [
+        [
+          0.012909134709688621
+        ],
+        [
+          -0.004409447229179669
+        ],
+        [
+          -0.02830736676906382
+        ]
+      ],
+      "episode_times": [
+        0.07266378402709961,
+        0.06962323188781738,
+        0.0704660415649414
+      ],
+      "model_path": "paper_trading_data/unified_training_results/DQN_model_20250801_142456.pt"
+    },
+    "DuelingDQN": {
+      "agent_type": "DuelingDQN",
+      "episodes": 3,
+      "total_time": 0.2351360321044922,
+      "final_reward": -0.030374067385682112,
+      "avg_reward": -0.00531961288549898,
+      "max_reward": 0.007501754437725923,
+      "min_reward": -0.030374067385682112,
+      "training_rewards": [
+        [
+          0.007501754437725923
+        ],
+        [
+          0.006913474291459249
+        ],
+        [
+          -0.030374067385682112
+        ]
+      ],
+      "episode_times": [
+        0.07668304443359375,
+        0.07858896255493164,
+        0.0722968578338623
+      ],
+      "model_path": "paper_trading_data/unified_training_results/DuelingDQN_model_20250801_142456.pt"
+    }
+  },
+  "evaluation_results": {
+    "PPO": {
+      "agent_type": "PPO",
+      "total_return": -0.1773512929959411,
+      "avg_return": -0.0006201094160697241,
+      "total_trades": 257,
+      "wins": 128,
+      "win_rate": 0.4980544747081712,
+      "test_records": 286
+    },
+    "SAC": {
+      "agent_type": "SAC",
+      "total_return": 3.9778917722536073,
+      "avg_return": 0.013908712490397228,
+      "total_trades": 261,
+      "wins": 135,
+      "win_rate": 0.5172413793103449,
+      "test_records": 286
+    },
+    "TD3": {
+      "agent_type": "TD3",
+      "total_return": 39.247761067075224,
+      "avg_return": 0.13722993380096232,
+      "total_trades": 252,
+      "wins": 138,
+      "win_rate": 0.5476190476190477,
+      "test_records": 286
+    },
+    "DDPG": {
+      "agent_type": "DDPG",
+      "total_return": 16.37591932561323,
+      "avg_return": 0.057258459180465834,
+      "total_trades": 266,
+      "wins": 136,
+      "win_rate": 0.5112781954887218,
+      "test_records": 286
+    },
+    "A2C": {
+      "agent_type": "A2C",
+      "total_return": -0.7609076469020903,
+      "avg_return": -0.002660516247909407,
+      "total_trades": 252,
+      "wins": 130,
+      "win_rate": 0.5158730158730159,
+      "test_records": 286
+    },
+    "DQN": {
+      "agent_type": "DQN",
+      "total_return": 5.744944972431775,
+      "avg_return": 0.020087220183327887,
+      "total_trades": 258,
+      "wins": 137,
+      "win_rate": 0.5310077519379846,
+      "test_records": 286
+    },
+    "DuelingDQN": {
+      "agent_type": "DuelingDQN",
+      "total_return": 21.57803967727913,
+      "avg_return": 0.07544769117929766,
+      "total_trades": 252,
+      "wins": 132,
+      "win_rate": 0.5238095238095238,
+      "test_records": 286
+    }
+  },
+  "summary": {
+    "best_agent": "TD3",
+    "best_return": 39.247761067075224,
+    "agent_rankings": [
+      "TD3",
+      "DuelingDQN",
+      "DDPG",
+      "DQN",
+      "SAC",
+      "PPO",
+      "A2C"
+    ],
+    "average_return": 12.283756839250705,
+    "total_agents_trained": 7,
+    "total_agents_evaluated": 7
+  }
+}

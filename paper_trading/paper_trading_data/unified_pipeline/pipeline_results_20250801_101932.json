@@ -1,0 +1,38 @@
+{
+  "data_collection": {
+    "status": "success",
+    "days_collected": 730,
+    "timestamp": "2025-08-01T10:18:31.505149"
+  },
+  "training": {
+    "status": "success",
+    "agent_type": "SAC",
+    "episodes": 3,
+    "final_reward": "[0.00220651]",
+    "model_path": "paper_trading_data/unified_training_results/SAC_model_20250801_101832.pt",
+    "timestamp": "2025-08-01T10:18:32.602884"
+  },
+  "backtesting": {
+    "status": "success",
+    "agent_type": "SAC",
+    "total_return": 0.0,
+    "sharpe_ratio": 0,
+    "max_drawdown": 0.0,
+    "timestamp": "2025-08-01T10:18:32.836419"
+  },
+  "live_trading": {
+    "status": "success",
+    "agent_type": "SAC",
+    "duration_minutes": 1,
+    "timestamp": "2025-08-01T10:19:32.847506"
+  },
+  "complete_pipeline": {
+    "status": "success",
+    "total_time": 86.57586288452148,
+    "agent_type": "SAC",
+    "episodes": 3,
+    "test_days": 7,
+    "live_duration": 1,
+    "timestamp": "2025-08-01T10:19:32.847572"
+  }
+}

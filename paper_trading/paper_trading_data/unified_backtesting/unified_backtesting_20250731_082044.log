@@ -1,0 +1,35 @@
+2025-07-31 08:20:44,727 - INFO - 🚀 Unified Backtesting System Started
+2025-07-31 08:20:44,728 - INFO - 📁 Results directory: paper_trading_data/unified_backtesting
+2025-07-31 08:20:44,728 - INFO - 📊 Data path: ../paper_trading_data/bitcoin_data/bitcoin_15m_combined_20230731_20250730.parquet
+2025-07-31 08:20:44,728 - INFO - 💵 Initial capital: $100,000.00
+2025-07-31 08:20:44,728 - INFO - 
+============================================================
+2025-07-31 08:20:44,728 - INFO - 📊 Running Simple Strategy Backtest
+2025-07-31 08:20:44,728 - INFO - ============================================================
+2025-07-31 08:20:44,728 - INFO - 📊 Loading backtest data...
+2025-07-31 08:20:44,761 - INFO - ✅ Successfully loaded dataset:
+2025-07-31 08:20:44,761 - INFO -    📈 Total records: 42,902
+2025-07-31 08:20:44,762 - INFO -    📅 Date range: 2023-08-01 22:15:00 to 2025-07-30 00:00:00
+2025-07-31 08:20:44,762 - INFO -    💰 Price range: $24,999.40 - $120,228.20
+2025-07-31 08:20:44,762 - INFO - 🧹 Cleaning data...
+2025-07-31 08:20:44,783 - INFO -    Removed 0 duplicates
+2025-07-31 08:20:44,785 - INFO -    Removed rows with missing values: 42,902 records remaining
+2025-07-31 08:20:44,786 - INFO -    Validated price data: 42,902 records remaining
+2025-07-31 08:20:44,786 - INFO - ✅ Data cleaned successfully: 42,902 records
+2025-07-31 08:20:44,789 - INFO - 📊 Test period: 2025-07-23 00:00:00 to 2025-07-30 00:00:00
+2025-07-31 08:20:44,789 - INFO - 📈 Test records: 644
+2025-07-31 08:20:44,928 - INFO - 💾 Backtest results saved: paper_trading_data/unified_backtesting/backtest_results_SimpleStrategy_20250731_082044.json
+2025-07-31 08:20:44,938 - INFO - 💾 Equity curve saved: paper_trading_data/unified_backtesting/equity_curve_SimpleStrategy_20250731_082044.csv
+2025-07-31 08:20:44,938 - INFO - 
+📊 Backtest Summary (SimpleStrategy):
+2025-07-31 08:20:44,938 - INFO -    💰 Initial capital: $100,000.00
+2025-07-31 08:20:44,938 - INFO -    💰 Final value: $97,550.01
+2025-07-31 08:20:44,938 - INFO -    📈 Total return: -2.45%
+2025-07-31 08:20:44,938 - INFO -    📈 Buy & hold return: -1.57%
+2025-07-31 08:20:44,941 - INFO -    📈 Excess return: -0.88%
+2025-07-31 08:20:44,942 - INFO -    📊 Sharpe ratio: -0.042
+2025-07-31 08:20:44,942 - INFO -    📉 Max drawdown: -2.63%
+2025-07-31 08:20:44,942 - INFO -    📊 Volatility: 1.44%
+2025-07-31 08:20:44,942 - INFO -    🔄 Total trades: 349
+2025-07-31 08:20:44,942 - INFO -    🎯 Win rate: 46.70%
+2025-07-31 08:20:44,943 - INFO -    ⏱️  Backtest time: 0.11s

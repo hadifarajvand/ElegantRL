@@ -1,0 +1,11 @@
+2025-08-01 12:36:00,045 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 12:36:00,045 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 12:36:00,045 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 12:36:00,045 - INFO - 
+============================================================
+2025-08-01 12:36:00,045 - INFO - 🎯 Training DDPG Agent
+2025-08-01 12:36:00,045 - INFO - ============================================================
+2025-08-01 12:36:00,045 - INFO - 🔧 Creating DDPG agent...
+2025-08-01 12:36:00,045 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 12:36:00,107 - ERROR - ❌ Error loading data: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2025-08-01 12:36:00,107 - ERROR - ❌ Failed to load data for DDPG

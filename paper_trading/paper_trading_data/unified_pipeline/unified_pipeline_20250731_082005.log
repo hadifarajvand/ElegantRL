@@ -1,0 +1,44 @@
+2025-07-31 08:20:05,999 - INFO - 🚀 Unified Pipeline System Started
+2025-07-31 08:20:05,999 - INFO - 📁 Results directory: paper_trading_data/unified_pipeline
+2025-07-31 08:20:05,999 - INFO - 
+================================================================================
+2025-07-31 08:20:05,999 - INFO - 🚀 COMPLETE END-TO-END PIPELINE
+2025-07-31 08:20:05,999 - INFO - ================================================================================
+2025-07-31 08:20:05,999 - INFO - 
+📊 Step 1: Data Collection
+2025-07-31 08:20:05,999 - INFO - 
+============================================================
+2025-07-31 08:20:06,000 - INFO - 📊 Data Collection Pipeline
+2025-07-31 08:20:06,000 - INFO - ============================================================
+2025-07-31 08:20:06,002 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-07-31 08:20:06,002 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-07-31 08:20:06,002 - INFO - 📊 Exchange: mexc
+2025-07-31 08:20:06,002 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-07-31 08:20:06,002 - INFO - ⏰ Timeframe: 15m
+2025-07-31 08:20:06,002 - INFO - 
+============================================================
+2025-07-31 08:20:06,002 - INFO - 📊 Collecting Comprehensive Bitcoin Data
+2025-07-31 08:20:06,002 - INFO - ============================================================
+2025-07-31 08:20:06,002 - INFO - 📅 Date range: 2023-08-01 to 2025-07-31
+2025-07-31 08:20:06,002 - INFO - 📊 Total days: 730
+2025-07-31 08:20:06,002 - INFO - 🔧 Chunk size: 30 days
+2025-07-31 08:20:06,002 - INFO - 📊 Collecting chunk: 2023-08-01 to 2023-08-31
+2025-07-31 08:20:06,007 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:07,008 - INFO - 📊 Collecting chunk: 2023-08-31 to 2023-09-30
+2025-07-31 08:20:07,014 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:08,015 - INFO - 📊 Collecting chunk: 2023-09-30 to 2023-10-30
+2025-07-31 08:20:08,023 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:09,029 - INFO - 📊 Collecting chunk: 2023-10-30 to 2023-11-29
+2025-07-31 08:20:09,035 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:10,041 - INFO - 📊 Collecting chunk: 2023-11-29 to 2023-12-29
+2025-07-31 08:20:10,046 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:11,050 - INFO - 📊 Collecting chunk: 2023-12-29 to 2024-01-28
+2025-07-31 08:20:11,054 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:12,060 - INFO - 📊 Collecting chunk: 2024-01-28 to 2024-02-27
+2025-07-31 08:20:12,062 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:13,067 - INFO - 📊 Collecting chunk: 2024-02-27 to 2024-03-28
+2025-07-31 08:20:13,070 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:14,071 - INFO - 📊 Collecting chunk: 2024-03-28 to 2024-04-27
+2025-07-31 08:20:14,076 - WARNING - ⚠️  No data collected for chunk
+2025-07-31 08:20:15,078 - INFO - 📊 Collecting chunk: 2024-04-27 to 2024-05-27
+2025-07-31 08:20:15,083 - WARNING - ⚠️  No data collected for chunk

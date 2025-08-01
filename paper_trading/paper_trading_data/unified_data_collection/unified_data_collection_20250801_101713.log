@@ -1,0 +1,8 @@
+2025-08-01 10:17:13,356 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-08-01 10:17:13,356 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-08-01 10:17:13,356 - INFO - 📊 Exchange: mexc
+2025-08-01 10:17:13,356 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-08-01 10:17:13,356 - INFO - ⏰ Timeframe: 15m
+2025-08-01 10:17:13,356 - INFO - 
+🔗 Testing connection to mexc...
+2025-08-01 10:17:13,356 - ERROR - ❌ Connection test failed: 'str' object has no attribute 'load_markets'

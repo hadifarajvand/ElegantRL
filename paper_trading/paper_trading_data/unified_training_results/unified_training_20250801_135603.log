@@ -1,0 +1,9 @@
+2025-08-01 13:56:03,712 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 13:56:03,712 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 13:56:03,712 - INFO - 📊 Data path: ../paper_trading_data/bitcoin_data/bitcoin_15m_combined_20230731_20250730.parquet
+2025-08-01 13:56:03,712 - INFO - 
+============================================================
+2025-08-01 13:56:03,712 - INFO - 🎯 Training SAC Agent
+2025-08-01 13:56:03,712 - INFO - ============================================================
+2025-08-01 13:56:03,712 - INFO - 🔧 Creating SAC agent...
+2025-08-01 13:56:03,712 - INFO - 📊 Loading Bitcoin dataset...

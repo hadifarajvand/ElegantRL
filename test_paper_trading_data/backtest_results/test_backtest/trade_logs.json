@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "BTC/USDT",
+    "action": "BUY",
+    "quantity": 10,
+    "price": 150.0,
+    "portfolio_value": 100000.0,
+    "cash": 98500.0,
+    "positions": [
+      10,
+      0,
+      0
+    ],
+    "reward": 0.5,
+    "step": 1
+  },
+  {
+    "symbol": "ETH/USDT",
+    "action": "SELL",
+    "quantity": 5,
+    "price": 2500.0,
+    "portfolio_value": 102500.0,
+    "cash": 114750.0,
+    "positions": [
+      10,
+      -5,
+      0
+    ],
+    "reward": -0.2,
+    "step": 2
+  }
+]

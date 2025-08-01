@@ -1,0 +1,19 @@
+2025-08-01 11:04:15,554 - INFO - 🚀 Unified Bitcoin Data Collection System Started
+2025-08-01 11:04:15,554 - INFO - 📁 Data directory: paper_trading_data/unified_data_collection
+2025-08-01 11:04:15,554 - INFO - 📊 Exchange: mexc
+2025-08-01 11:04:15,554 - INFO - 💰 Symbol: BTC/USDT:USDT
+2025-08-01 11:04:15,554 - INFO - ⏰ Timeframe: 15m
+2025-08-01 11:04:15,554 - INFO - 
+🔗 Testing connection to mexc...
+2025-08-01 11:04:15,554 - INFO - ✅ Successfully connected to mexc
+2025-08-01 11:04:15,554 - INFO - 📊 Available markets: 1
+2025-08-01 11:04:15,554 - INFO - ✅ Symbol BTC/USDT:USDT is available
+2025-08-01 11:04:15,554 - INFO - 
+📊 Collecting recent data (168 hours)...
+2025-08-01 11:04:15,556 - INFO - 🧹 Cleaning and validating data...
+2025-08-01 11:04:15,556 - INFO -    Removed 0 duplicates
+2025-08-01 11:04:15,557 - INFO -    Removed rows with missing values: 15 records remaining
+2025-08-01 11:04:15,557 - INFO -    Validated price data: 15 records remaining
+2025-08-01 11:04:15,557 - INFO -    Validated OHLC relationships: 15 records remaining
+2025-08-01 11:04:15,558 - INFO -    Removed outliers: 15 records remaining
+2025-08-01 11:04:15,572 - INFO - 💾 Recent data saved: paper_trading_data/unified_data_collection/bitcoin_recent_168h_20250801_110415.parquet

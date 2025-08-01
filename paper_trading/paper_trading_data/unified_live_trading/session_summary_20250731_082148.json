@@ -1,0 +1,15 @@
+{
+  "session_start": "2025-07-31T08:20:48.795810",
+  "session_end": "2025-07-31T08:21:48.830147",
+  "duration_minutes": 1.0005722833333333,
+  "initial_value": 100000.0,
+  "final_value": 100000.0,
+  "session_return": 0.0,
+  "total_trades": 6,
+  "final_portfolio_status": {
+    "cash": 1562.5,
+    "position": 1.9286344043887147,
+    "total_value": 100000.0,
+    "total_return": 0.0,
+    "total_trades": 6,
+    "current_price": 

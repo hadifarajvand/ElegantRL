@@ -1,0 +1,7 @@
+2025-07-30 20:55:09,601 - paper_trading.data.ccxt_provider - INFO - Successfully initialized mexc exchange
+2025-07-30 20:55:10,158 - paper_trading.data.ccxt_provider - INFO - Connection test successful for mexc
+2025-07-30 20:55:12,761 - paper_trading.data.ccxt_provider - INFO - Fetched 100 records for BTC/USDT:USDT on 15m
+2025-07-30 20:55:12,768 - paper_trading.data.ccxt_provider - INFO - Calculated technical indicators for 0 data points
+2025-07-30 21:43:32,879 - paper_trading.data.ccxt_provider - INFO - Successfully initialized mexc exchange
+2025-07-30 21:43:34,510 - paper_trading.data.ccxt_provider - INFO - Fetched 100 records for BTC/USDT:USDT on 15m
+2025-07-30 21:43:34,518 - paper_trading.data.ccxt_provider - INFO - Calculated technical indicators for 0 data points

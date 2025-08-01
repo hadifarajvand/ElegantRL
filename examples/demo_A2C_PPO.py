@@ -1,15 +1,9 @@
 from argparse import ArgumentParser
 
-try:
-    from ..elegantrl import Config
-    from ..elegantrl import train_agent
-    from ..elegantrl import get_gym_env_args
-    from ..elegantrl.agents import AgentPPO, AgentA2C
-except ImportError or ModuleNotFoundError:
-    from elegantrl import Config
-    from elegantrl import train_agent
-    from elegantrl import get_gym_env_args
-    from elegantrl.agents import AgentPPO, AgentA2C
+from elegantrl import Config
+from elegantrl import train_agent
+from elegantrl import get_gym_env_args
+from elegantrl.agents import AgentPPO, AgentA2C
 
 """continuous action"""
 
@@ -589,5 +583,9 @@ if __name__ == '__main__':
         train_ppo_a2c_for_bipedal_walker(agent_class=AgentClass, gpu_id=GPU_ID)
     elif ENV_ID in {'5', 'bipedal_walker_vec'}:
         train_ppo_a2c_for_bipedal_walker_vec_env(agent_class=AgentClass, gpu_id=GPU_ID)
+    elif ENV_ID in {'6', 'stock_trading'}:
+        train_ppo_a2c_for_stock_trading(agent_class=AgentClass, gpu_id=GPU_ID)
+    elif ENV_ID in {'7', 'stock_trading_vec'}:
+        train_ppo_a2c_for_stock_trading_vec_env(agent_class=AgentClass, gpu_id=GPU_ID)
     else:
         print('ENV_ID not match', flush=True)

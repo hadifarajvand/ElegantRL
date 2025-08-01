@@ -1,0 +1,909 @@
+2025-08-01 14:37:34,463 - INFO - 🚀 Unified Bitcoin DRL Training System Started
+2025-08-01 14:37:34,463 - INFO - 📁 Results directory: paper_trading_data/unified_training_results
+2025-08-01 14:37:34,463 - INFO - 📊 Data path: paper_trading_data/unified_data_collection/bitcoin_15m_20250702_20250801.csv
+2025-08-01 14:37:34,463 - INFO - 
+================================================================================
+2025-08-01 14:37:34,463 - INFO - 🚀 STARTING UNIFIED TRAINING OF ALL AGENTS
+2025-08-01 14:37:34,463 - INFO - ================================================================================
+2025-08-01 14:37:34,463 - INFO - 
+============================================================
+2025-08-01 14:37:34,463 - INFO - 🎯 AGENT 1/7: PPO
+2025-08-01 14:37:34,463 - INFO - ============================================================
+2025-08-01 14:37:34,463 - INFO - 🔄 Training PPO...
+2025-08-01 14:37:34,463 - INFO - 
+============================================================
+2025-08-01 14:37:34,463 - INFO - 🎯 Training PPO Agent
+2025-08-01 14:37:34,464 - INFO - ============================================================
+2025-08-01 14:37:34,464 - INFO - 🔧 Creating PPO agent...
+2025-08-01 14:37:34,464 - INFO - ✅ PPO agent created successfully
+2025-08-01 14:37:34,464 - INFO - 📊 Loading data for PPO...
+2025-08-01 14:37:34,464 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:37:34,478 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:37:34,478 - INFO -    📈 Total records: 2,865
+2025-08-01 14:37:34,482 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:37:34,483 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:37:34,483 - INFO - 🧹 Cleaning data...
+2025-08-01 14:37:34,491 - INFO -    Removed 0 duplicates
+2025-08-01 14:37:34,493 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:37:34,494 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:37:34,494 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:37:34,494 - INFO - ✅ Data loaded successfully for PPO
+2025-08-01 14:37:34,494 - INFO - 🚀 Starting training for PPO...
+2025-08-01 14:37:34,494 - INFO -    📊 Episodes: 200
+2025-08-01 14:37:34,494 - INFO -    📈 Data points: 2,865
+2025-08-01 14:37:34,494 - INFO -    🎯 Agent type: PPO
+2025-08-01 14:37:34,494 - INFO -    ⏰ Start time: 14:37:34
+2025-08-01 14:37:34,494 - INFO - 🔄 Starting 200 training episodes for PPO...
+2025-08-01 14:37:34,758 - INFO -    📊 Episode   1/200: Reward: -0.036, Avg (last 5): -0.036, Time: 0.263s
+2025-08-01 14:37:34,827 - INFO -    📈 Episode   2/200: Reward:  0.036
+2025-08-01 14:37:34,892 - INFO -    📈 Episode   3/200: Reward: -0.017
+2025-08-01 14:37:34,967 - INFO -    📈 Episode   4/200: Reward:  0.018
+2025-08-01 14:37:35,047 - INFO -    📊 Episode   5/200: Reward: -0.038, Avg (last 5): -0.008, Time: 0.080s
+2025-08-01 14:37:35,107 - INFO -    📈 Episode   6/200: Reward:  0.058
+2025-08-01 14:37:35,165 - INFO -    📈 Episode   7/200: Reward:  0.016
+2025-08-01 14:37:35,224 - INFO -    📈 Episode   8/200: Reward:  0.052
+2025-08-01 14:37:35,284 - INFO -    📈 Episode   9/200: Reward: -0.005
+2025-08-01 14:37:35,344 - INFO -    📊 Episode  10/200: Reward:  0.045, Avg (last 5):  0.033, Time: 0.060s
+2025-08-01 14:37:35,663 - INFO -    📊 Episode  15/200: Reward:  0.027, Avg (last 5):  0.005, Time: 0.061s
+2025-08-01 14:37:35,955 - INFO -    📊 Episode  20/200: Reward:  0.061, Avg (last 5):  0.000, Time: 0.057s
+2025-08-01 14:37:36,249 - INFO -    📊 Episode  25/200: Reward: -0.002, Avg (last 5):  0.006, Time: 0.064s
+2025-08-01 14:37:36,557 - INFO -    📊 Episode  30/200: Reward:  0.042, Avg (last 5):  0.007, Time: 0.064s
+2025-08-01 14:37:36,855 - INFO -    📊 Episode  35/200: Reward: -0.015, Avg (last 5): -0.019, Time: 0.057s
+2025-08-01 14:37:37,148 - INFO -    📊 Episode  40/200: Reward:  0.012, Avg (last 5): -0.004, Time: 0.059s
+2025-08-01 14:37:37,661 - INFO -    📊 Episode  45/200: Reward:  0.048, Avg (last 5):  0.014, Time: 0.245s
+2025-08-01 14:37:37,991 - INFO -    📊 Episode  50/200: Reward:  0.003, Avg (last 5): -0.013, Time: 0.057s
+2025-08-01 14:37:38,389 - INFO -    📊 Episode  55/200: Reward: -0.021, Avg (last 5): -0.004, Time: 0.065s
+2025-08-01 14:37:38,723 - INFO -    📊 Episode  60/200: Reward: -0.006, Avg (last 5):  0.001, Time: 0.059s
+2025-08-01 14:37:39,021 - INFO -    📊 Episode  65/200: Reward:  0.014, Avg (last 5):  0.014, Time: 0.059s
+2025-08-01 14:37:39,314 - INFO -    📊 Episode  70/200: Reward: -0.013, Avg (last 5):  0.004, Time: 0.059s
+2025-08-01 14:37:39,609 - INFO -    📊 Episode  75/200: Reward: -0.059, Avg (last 5):  0.000, Time: 0.056s
+2025-08-01 14:37:39,932 - INFO -    📊 Episode  80/200: Reward: -0.005, Avg (last 5):  0.008, Time: 0.057s
+2025-08-01 14:37:40,225 - INFO -    📊 Episode  85/200: Reward:  0.030, Avg (last 5):  0.015, Time: 0.062s
+2025-08-01 14:37:40,597 - INFO -    📊 Episode  90/200: Reward: -0.055, Avg (last 5): -0.005, Time: 0.061s
+2025-08-01 14:37:40,884 - INFO -    📊 Episode  95/200: Reward:  0.020, Avg (last 5):  0.025, Time: 0.056s
+2025-08-01 14:37:41,196 - INFO -    📊 Episode 100/200: Reward:  0.025, Avg (last 5): -0.002, Time: 0.084s
+2025-08-01 14:37:41,485 - INFO -    📊 Episode 105/200: Reward: -0.012, Avg (last 5):  0.008, Time: 0.055s
+2025-08-01 14:37:41,777 - INFO -    📊 Episode 110/200: Reward: -0.015, Avg (last 5):  0.020, Time: 0.059s
+2025-08-01 14:37:42,062 - INFO -    📊 Episode 115/200: Reward: -0.028, Avg (last 5):  0.007, Time: 0.059s
+2025-08-01 14:37:42,347 - INFO -    📊 Episode 120/200: Reward:  0.062, Avg (last 5):  0.007, Time: 0.056s
+2025-08-01 14:37:42,635 - INFO -    📊 Episode 125/200: Reward:  0.007, Avg (last 5):  0.012, Time: 0.059s
+2025-08-01 14:37:42,923 - INFO -    📊 Episode 130/200: Reward:  0.006, Avg (last 5):  0.014, Time: 0.057s
+2025-08-01 14:37:43,209 - INFO -    📊 Episode 135/200: Reward:  0.047, Avg (last 5):  0.013, Time: 0.057s
+2025-08-01 14:37:43,494 - INFO -    📊 Episode 140/200: Reward:  0.025, Avg (last 5): -0.011, Time: 0.058s
+2025-08-01 14:37:43,791 - INFO -    📊 Episode 145/200: Reward: -0.037, Avg (last 5):  0.004, Time: 0.059s
+2025-08-01 14:37:44,089 - INFO -    📊 Episode 150/200: Reward:  0.005, Avg (last 5): -0.004, Time: 0.059s
+2025-08-01 14:37:44,388 - INFO -    📊 Episode 155/200: Reward: -0.005, Avg (last 5):  0.003, Time: 0.059s
+2025-08-01 14:37:44,696 - INFO -    📊 Episode 160/200: Reward: -0.004, Avg (last 5):  0.003, Time: 0.062s
+2025-08-01 14:37:44,985 - INFO -    📊 Episode 165/200: Reward: -0.008, Avg (last 5):  0.001, Time: 0.056s
+2025-08-01 14:37:45,269 - INFO -    📊 Episode 170/200: Reward:  0.017, Avg (last 5):  0.022, Time: 0.055s
+2025-08-01 14:37:45,558 - INFO -    📊 Episode 175/200: Reward:  0.028, Avg (last 5):  0.002, Time: 0.059s
+2025-08-01 14:37:45,847 - INFO -    📊 Episode 180/200: Reward: -0.047, Avg (last 5): -0.003, Time: 0.054s
+2025-08-01 14:37:46,131 - INFO -    📊 Episode 185/200: Reward:  0.031, Avg (last 5):  0.035, Time: 0.057s
+2025-08-01 14:37:46,417 - INFO -    📊 Episode 190/200: Reward:  0.043, Avg (last 5):  0.005, Time: 0.057s
+2025-08-01 14:37:46,702 - INFO -    📊 Episode 195/200: Reward: -0.011, Avg (last 5): -0.010, Time: 0.056s
+2025-08-01 14:37:46,992 - INFO -    📊 Episode 200/200: Reward:  0.069, Avg (last 5):  0.027, Time: 0.058s
+2025-08-01 14:37:46,993 - INFO - 
+📊 PPO Training Summary:
+2025-08-01 14:37:46,993 - INFO -    ⏱️  Total time: 12.53s
+2025-08-01 14:37:46,993 - INFO -    🎯 Final reward: 0.069
+2025-08-01 14:37:46,993 - INFO -    📈 Average reward: 0.006
+2025-08-01 14:37:46,993 - INFO -    🔝 Max reward: 0.101
+2025-08-01 14:37:46,993 - INFO -    🔻 Min reward: -0.063
+2025-08-01 14:37:46,993 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/PPO_model_20250801_143746.pt
+2025-08-01 14:37:46,993 - INFO - ✅ PPO training completed successfully
+2025-08-01 14:37:46,993 - INFO - 🔍 Evaluating PPO...
+2025-08-01 14:37:46,993 - INFO - 
+============================================================
+2025-08-01 14:37:46,993 - INFO - 🔍 Evaluating PPO Agent
+2025-08-01 14:37:46,993 - INFO - ============================================================
+2025-08-01 14:37:46,993 - INFO - 🤖 Loading PPO agent from paper_trading_data/unified_training_results/PPO_model_20250801_143746.pt...
+2025-08-01 14:37:46,993 - INFO - ✅ PPO agent loaded successfully
+2025-08-01 14:37:46,993 - INFO - 📊 Loading evaluation data for PPO...
+2025-08-01 14:37:46,993 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:37:46,996 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:37:46,996 - INFO -    📈 Total records: 2,865
+2025-08-01 14:37:46,996 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:37:46,996 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:37:46,996 - INFO - 🧹 Cleaning data...
+2025-08-01 14:37:46,997 - INFO -    Removed 0 duplicates
+2025-08-01 14:37:46,998 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:37:46,998 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:37:46,999 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:37:46,999 - INFO - ✅ Evaluation data loaded for PPO
+2025-08-01 14:37:46,999 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:37:46,999 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:37:46,999 - INFO - 🎯 Testing PPO on 286 data points...
+2025-08-01 14:37:46,999 - INFO - 🔄 Running evaluation simulation for PPO...
+2025-08-01 14:37:47,002 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:37:47,005 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:37:47,009 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:37:47,014 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:37:47,017 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:37:47,019 - INFO - ✅ Evaluation simulation completed for PPO
+2025-08-01 14:37:47,019 - INFO - 📊 PPO Evaluation Results:
+2025-08-01 14:37:47,019 - INFO -    💰 Total return: -5.963
+2025-08-01 14:37:47,019 - INFO -    📈 Average return: -0.021
+2025-08-01 14:37:47,019 - INFO -    🔄 Total trades: 257
+2025-08-01 14:37:47,019 - INFO -    ✅ Wins: 122
+2025-08-01 14:37:47,019 - INFO -    🎯 Win rate: 47.47%
+2025-08-01 14:37:47,019 - INFO - ✅ PPO evaluation completed successfully
+2025-08-01 14:37:47,019 - INFO - 📊 Progress: 1/7 agents processed
+2025-08-01 14:37:47,019 - INFO -    ✅ Trained: 1/1
+2025-08-01 14:37:47,019 - INFO -    ✅ Evaluated: 1/1
+2025-08-01 14:37:47,019 - INFO - 
+============================================================
+2025-08-01 14:37:47,019 - INFO - 🎯 AGENT 2/7: SAC
+2025-08-01 14:37:47,019 - INFO - ============================================================
+2025-08-01 14:37:47,019 - INFO - 🔄 Training SAC...
+2025-08-01 14:37:47,019 - INFO - 
+============================================================
+2025-08-01 14:37:47,019 - INFO - 🎯 Training SAC Agent
+2025-08-01 14:37:47,019 - INFO - ============================================================
+2025-08-01 14:37:47,019 - INFO - 🔧 Creating SAC agent...
+2025-08-01 14:37:47,019 - INFO - ✅ SAC agent created successfully
+2025-08-01 14:37:47,019 - INFO - 📊 Loading data for SAC...
+2025-08-01 14:37:47,019 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:37:47,021 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:37:47,021 - INFO -    📈 Total records: 2,865
+2025-08-01 14:37:47,022 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:37:47,022 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:37:47,022 - INFO - 🧹 Cleaning data...
+2025-08-01 14:37:47,023 - INFO -    Removed 0 duplicates
+2025-08-01 14:37:47,024 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:37:47,024 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:37:47,024 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:37:47,024 - INFO - ✅ Data loaded successfully for SAC
+2025-08-01 14:37:47,024 - INFO - 🚀 Starting training for SAC...
+2025-08-01 14:37:47,024 - INFO -    📊 Episodes: 200
+2025-08-01 14:37:47,024 - INFO -    📈 Data points: 2,865
+2025-08-01 14:37:47,024 - INFO -    🎯 Agent type: SAC
+2025-08-01 14:37:47,024 - INFO -    ⏰ Start time: 14:37:47
+2025-08-01 14:37:47,024 - INFO - 🔄 Starting 200 training episodes for SAC...
+2025-08-01 14:37:47,085 - INFO -    📊 Episode   1/200: Reward: -0.015, Avg (last 5): -0.015, Time: 0.061s
+2025-08-01 14:37:47,146 - INFO -    📈 Episode   2/200: Reward: -0.018
+2025-08-01 14:37:47,205 - INFO -    📈 Episode   3/200: Reward: -0.005
+2025-08-01 14:37:47,263 - INFO -    📈 Episode   4/200: Reward:  0.019
+2025-08-01 14:37:47,320 - INFO -    📊 Episode   5/200: Reward:  0.026, Avg (last 5):  0.001, Time: 0.057s
+2025-08-01 14:37:47,375 - INFO -    📈 Episode   6/200: Reward:  0.074
+2025-08-01 14:37:47,432 - INFO -    📈 Episode   7/200: Reward: -0.011
+2025-08-01 14:37:47,491 - INFO -    📈 Episode   8/200: Reward:  0.003
+2025-08-01 14:37:47,550 - INFO -    📈 Episode   9/200: Reward: -0.010
+2025-08-01 14:37:47,610 - INFO -    📊 Episode  10/200: Reward:  0.008, Avg (last 5):  0.013, Time: 0.059s
+2025-08-01 14:37:47,892 - INFO -    📊 Episode  15/200: Reward:  0.022, Avg (last 5): -0.009, Time: 0.057s
+2025-08-01 14:37:48,174 - INFO -    📊 Episode  20/200: Reward: -0.011, Avg (last 5):  0.000, Time: 0.057s
+2025-08-01 14:37:48,451 - INFO -    📊 Episode  25/200: Reward: -0.038, Avg (last 5): -0.020, Time: 0.056s
+2025-08-01 14:37:48,740 - INFO -    📊 Episode  30/200: Reward:  0.008, Avg (last 5): -0.018, Time: 0.058s
+2025-08-01 14:37:49,029 - INFO -    📊 Episode  35/200: Reward:  0.016, Avg (last 5): -0.000, Time: 0.057s
+2025-08-01 14:37:49,323 - INFO -    📊 Episode  40/200: Reward: -0.011, Avg (last 5): -0.022, Time: 0.057s
+2025-08-01 14:37:49,617 - INFO -    📊 Episode  45/200: Reward:  0.006, Avg (last 5):  0.006, Time: 0.060s
+2025-08-01 14:37:49,909 - INFO -    📊 Episode  50/200: Reward:  0.044, Avg (last 5):  0.009, Time: 0.059s
+2025-08-01 14:37:50,200 - INFO -    📊 Episode  55/200: Reward:  0.017, Avg (last 5):  0.011, Time: 0.057s
+2025-08-01 14:37:50,487 - INFO -    📊 Episode  60/200: Reward:  0.028, Avg (last 5): -0.019, Time: 0.058s
+2025-08-01 14:37:50,782 - INFO -    📊 Episode  65/200: Reward: -0.049, Avg (last 5): -0.002, Time: 0.060s
+2025-08-01 14:37:51,068 - INFO -    📊 Episode  70/200: Reward: -0.006, Avg (last 5):  0.004, Time: 0.057s
+2025-08-01 14:37:51,349 - INFO -    📊 Episode  75/200: Reward: -0.022, Avg (last 5): -0.011, Time: 0.057s
+2025-08-01 14:37:51,638 - INFO -    📊 Episode  80/200: Reward: -0.006, Avg (last 5): -0.001, Time: 0.058s
+2025-08-01 14:37:51,927 - INFO -    📊 Episode  85/200: Reward:  0.038, Avg (last 5):  0.015, Time: 0.056s
+2025-08-01 14:37:52,215 - INFO -    📊 Episode  90/200: Reward: -0.033, Avg (last 5):  0.004, Time: 0.057s
+2025-08-01 14:37:52,502 - INFO -    📊 Episode  95/200: Reward: -0.021, Avg (last 5):  0.011, Time: 0.059s
+2025-08-01 14:37:52,793 - INFO -    📊 Episode 100/200: Reward: -0.006, Avg (last 5): -0.025, Time: 0.058s
+2025-08-01 14:37:53,275 - INFO -    📊 Episode 105/200: Reward: -0.036, Avg (last 5): -0.001, Time: 0.060s
+2025-08-01 14:37:53,584 - INFO -    📊 Episode 110/200: Reward:  0.063, Avg (last 5):  0.028, Time: 0.060s
+2025-08-01 14:37:53,875 - INFO -    📊 Episode 115/200: Reward:  0.028, Avg (last 5):  0.009, Time: 0.059s
+2025-08-01 14:37:54,172 - INFO -    📊 Episode 120/200: Reward:  0.006, Avg (last 5):  0.003, Time: 0.060s
+2025-08-01 14:37:54,478 - INFO -    📊 Episode 125/200: Reward:  0.018, Avg (last 5): -0.001, Time: 0.072s
+2025-08-01 14:37:54,801 - INFO -    📊 Episode 130/200: Reward: -0.009, Avg (last 5): -0.001, Time: 0.059s
+2025-08-01 14:37:55,081 - INFO -    📊 Episode 135/200: Reward: -0.064, Avg (last 5): -0.009, Time: 0.055s
+2025-08-01 14:37:55,364 - INFO -    📊 Episode 140/200: Reward: -0.001, Avg (last 5): -0.006, Time: 0.056s
+2025-08-01 14:37:55,654 - INFO -    📊 Episode 145/200: Reward:  0.008, Avg (last 5):  0.005, Time: 0.057s
+2025-08-01 14:37:55,940 - INFO -    📊 Episode 150/200: Reward:  0.028, Avg (last 5):  0.014, Time: 0.056s
+2025-08-01 14:37:56,236 - INFO -    📊 Episode 155/200: Reward:  0.033, Avg (last 5):  0.002, Time: 0.060s
+2025-08-01 14:37:56,526 - INFO -    📊 Episode 160/200: Reward: -0.024, Avg (last 5):  0.014, Time: 0.057s
+2025-08-01 14:37:56,813 - INFO -    📊 Episode 165/200: Reward:  0.005, Avg (last 5): -0.019, Time: 0.057s
+2025-08-01 14:37:57,097 - INFO -    📊 Episode 170/200: Reward:  0.001, Avg (last 5): -0.018, Time: 0.056s
+2025-08-01 14:37:57,383 - INFO -    📊 Episode 175/200: Reward:  0.022, Avg (last 5): -0.008, Time: 0.057s
+2025-08-01 14:37:57,672 - INFO -    📊 Episode 180/200: Reward: -0.036, Avg (last 5): -0.004, Time: 0.057s
+2025-08-01 14:37:57,952 - INFO -    📊 Episode 185/200: Reward: -0.027, Avg (last 5):  0.016, Time: 0.056s
+2025-08-01 14:37:58,234 - INFO -    📊 Episode 190/200: Reward:  0.035, Avg (last 5): -0.007, Time: 0.055s
+2025-08-01 14:37:58,520 - INFO -    📊 Episode 195/200: Reward:  0.003, Avg (last 5): -0.023, Time: 0.060s
+2025-08-01 14:37:58,814 - INFO -    📊 Episode 200/200: Reward:  0.019, Avg (last 5): -0.005, Time: 0.064s
+2025-08-01 14:37:58,815 - INFO - 
+📊 SAC Training Summary:
+2025-08-01 14:37:58,815 - INFO -    ⏱️  Total time: 11.80s
+2025-08-01 14:37:58,815 - INFO -    🎯 Final reward: 0.019
+2025-08-01 14:37:58,815 - INFO -    📈 Average reward: -0.002
+2025-08-01 14:37:58,815 - INFO -    🔝 Max reward: 0.074
+2025-08-01 14:37:58,815 - INFO -    🔻 Min reward: -0.085
+2025-08-01 14:37:58,815 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/SAC_model_20250801_143758.pt
+2025-08-01 14:37:58,815 - INFO - ✅ SAC training completed successfully
+2025-08-01 14:37:58,815 - INFO - 🔍 Evaluating SAC...
+2025-08-01 14:37:58,815 - INFO - 
+============================================================
+2025-08-01 14:37:58,815 - INFO - 🔍 Evaluating SAC Agent
+2025-08-01 14:37:58,815 - INFO - ============================================================
+2025-08-01 14:37:58,815 - INFO - 🤖 Loading SAC agent from paper_trading_data/unified_training_results/SAC_model_20250801_143758.pt...
+2025-08-01 14:37:58,815 - INFO - ✅ SAC agent loaded successfully
+2025-08-01 14:37:58,815 - INFO - 📊 Loading evaluation data for SAC...
+2025-08-01 14:37:58,815 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:37:58,817 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:37:58,817 - INFO -    📈 Total records: 2,865
+2025-08-01 14:37:58,817 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:37:58,817 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:37:58,818 - INFO - 🧹 Cleaning data...
+2025-08-01 14:37:58,818 - INFO -    Removed 0 duplicates
+2025-08-01 14:37:58,819 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:37:58,819 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:37:58,820 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:37:58,820 - INFO - ✅ Evaluation data loaded for SAC
+2025-08-01 14:37:58,820 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:37:58,820 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:37:58,820 - INFO - 🎯 Testing SAC on 286 data points...
+2025-08-01 14:37:58,820 - INFO - 🔄 Running evaluation simulation for SAC...
+2025-08-01 14:37:58,823 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:37:58,826 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:37:58,831 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:37:58,834 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:37:58,837 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:37:58,839 - INFO - ✅ Evaluation simulation completed for SAC
+2025-08-01 14:37:58,839 - INFO - 📊 SAC Evaluation Results:
+2025-08-01 14:37:58,839 - INFO -    💰 Total return: 28.371
+2025-08-01 14:37:58,839 - INFO -    📈 Average return: 0.099
+2025-08-01 14:37:58,840 - INFO -    🔄 Total trades: 254
+2025-08-01 14:37:58,840 - INFO -    ✅ Wins: 143
+2025-08-01 14:37:58,840 - INFO -    🎯 Win rate: 56.30%
+2025-08-01 14:37:58,840 - INFO - ✅ SAC evaluation completed successfully
+2025-08-01 14:37:58,840 - INFO - 📊 Progress: 2/7 agents processed
+2025-08-01 14:37:58,840 - INFO -    ✅ Trained: 2/2
+2025-08-01 14:37:58,840 - INFO -    ✅ Evaluated: 2/2
+2025-08-01 14:37:58,840 - INFO - 
+============================================================
+2025-08-01 14:37:58,840 - INFO - 🎯 AGENT 3/7: TD3
+2025-08-01 14:37:58,840 - INFO - ============================================================
+2025-08-01 14:37:58,840 - INFO - 🔄 Training TD3...
+2025-08-01 14:37:58,840 - INFO - 
+============================================================
+2025-08-01 14:37:58,840 - INFO - 🎯 Training TD3 Agent
+2025-08-01 14:37:58,840 - INFO - ============================================================
+2025-08-01 14:37:58,840 - INFO - 🔧 Creating TD3 agent...
+2025-08-01 14:37:58,840 - INFO - ✅ TD3 agent created successfully
+2025-08-01 14:37:58,840 - INFO - 📊 Loading data for TD3...
+2025-08-01 14:37:58,840 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:37:58,842 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:37:58,842 - INFO -    📈 Total records: 2,865
+2025-08-01 14:37:58,842 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:37:58,842 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:37:58,842 - INFO - 🧹 Cleaning data...
+2025-08-01 14:37:58,843 - INFO -    Removed 0 duplicates
+2025-08-01 14:37:58,844 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:37:58,844 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:37:58,844 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:37:58,844 - INFO - ✅ Data loaded successfully for TD3
+2025-08-01 14:37:58,844 - INFO - 🚀 Starting training for TD3...
+2025-08-01 14:37:58,844 - INFO -    📊 Episodes: 200
+2025-08-01 14:37:58,845 - INFO -    📈 Data points: 2,865
+2025-08-01 14:37:58,845 - INFO -    🎯 Agent type: TD3
+2025-08-01 14:37:58,845 - INFO -    ⏰ Start time: 14:37:58
+2025-08-01 14:37:58,845 - INFO - 🔄 Starting 200 training episodes for TD3...
+2025-08-01 14:37:58,907 - INFO -    📊 Episode   1/200: Reward: -0.018, Avg (last 5): -0.018, Time: 0.062s
+2025-08-01 14:37:58,970 - INFO -    📈 Episode   2/200: Reward: -0.044
+2025-08-01 14:37:59,031 - INFO -    📈 Episode   3/200: Reward:  0.015
+2025-08-01 14:37:59,090 - INFO -    📈 Episode   4/200: Reward:  0.003
+2025-08-01 14:37:59,151 - INFO -    📊 Episode   5/200: Reward: -0.013, Avg (last 5): -0.011, Time: 0.061s
+2025-08-01 14:37:59,208 - INFO -    📈 Episode   6/200: Reward: -0.020
+2025-08-01 14:37:59,265 - INFO -    📈 Episode   7/200: Reward:  0.051
+2025-08-01 14:37:59,324 - INFO -    📈 Episode   8/200: Reward: -0.017
+2025-08-01 14:37:59,380 - INFO -    📈 Episode   9/200: Reward: -0.017
+2025-08-01 14:37:59,438 - INFO -    📊 Episode  10/200: Reward: -0.038, Avg (last 5): -0.008, Time: 0.058s
+2025-08-01 14:37:59,740 - INFO -    📊 Episode  15/200: Reward: -0.044, Avg (last 5): -0.028, Time: 0.068s
+2025-08-01 14:38:00,194 - INFO -    📊 Episode  20/200: Reward:  0.053, Avg (last 5):  0.006, Time: 0.058s
+2025-08-01 14:38:00,485 - INFO -    📊 Episode  25/200: Reward: -0.010, Avg (last 5): -0.012, Time: 0.059s
+2025-08-01 14:38:00,770 - INFO -    📊 Episode  30/200: Reward:  0.029, Avg (last 5): -0.016, Time: 0.056s
+2025-08-01 14:38:01,055 - INFO -    📊 Episode  35/200: Reward:  0.032, Avg (last 5):  0.002, Time: 0.057s
+2025-08-01 14:38:01,340 - INFO -    📊 Episode  40/200: Reward: -0.002, Avg (last 5):  0.028, Time: 0.058s
+2025-08-01 14:38:01,623 - INFO -    📊 Episode  45/200: Reward: -0.017, Avg (last 5):  0.001, Time: 0.057s
+2025-08-01 14:38:01,906 - INFO -    📊 Episode  50/200: Reward: -0.035, Avg (last 5): -0.010, Time: 0.054s
+2025-08-01 14:38:02,205 - INFO -    📊 Episode  55/200: Reward:  0.017, Avg (last 5):  0.003, Time: 0.066s
+2025-08-01 14:38:02,496 - INFO -    📊 Episode  60/200: Reward: -0.001, Avg (last 5): -0.021, Time: 0.062s
+2025-08-01 14:38:02,783 - INFO -    📊 Episode  65/200: Reward: -0.020, Avg (last 5): -0.018, Time: 0.056s
+2025-08-01 14:38:03,060 - INFO -    📊 Episode  70/200: Reward:  0.002, Avg (last 5): -0.000, Time: 0.057s
+2025-08-01 14:38:03,338 - INFO -    📊 Episode  75/200: Reward:  0.051, Avg (last 5):  0.002, Time: 0.055s
+2025-08-01 14:38:03,626 - INFO -    📊 Episode  80/200: Reward:  0.011, Avg (last 5):  0.024, Time: 0.061s
+2025-08-01 14:38:03,922 - INFO -    📊 Episode  85/200: Reward:  0.065, Avg (last 5):  0.040, Time: 0.059s
+2025-08-01 14:38:04,211 - INFO -    📊 Episode  90/200: Reward:  0.040, Avg (last 5): -0.005, Time: 0.059s
+2025-08-01 14:38:04,500 - INFO -    📊 Episode  95/200: Reward:  0.019, Avg (last 5): -0.004, Time: 0.057s
+2025-08-01 14:38:04,790 - INFO -    📊 Episode 100/200: Reward:  0.014, Avg (last 5):  0.012, Time: 0.057s
+2025-08-01 14:38:05,087 - INFO -    📊 Episode 105/200: Reward:  0.046, Avg (last 5): -0.001, Time: 0.060s
+2025-08-01 14:38:05,375 - INFO -    📊 Episode 110/200: Reward: -0.009, Avg (last 5):  0.001, Time: 0.056s
+2025-08-01 14:38:05,661 - INFO -    📊 Episode 115/200: Reward:  0.002, Avg (last 5):  0.004, Time: 0.057s
+2025-08-01 14:38:05,946 - INFO -    📊 Episode 120/200: Reward: -0.004, Avg (last 5): -0.001, Time: 0.058s
+2025-08-01 14:38:06,234 - INFO -    📊 Episode 125/200: Reward:  0.035, Avg (last 5): -0.016, Time: 0.061s
+2025-08-01 14:38:06,560 - INFO -    📊 Episode 130/200: Reward:  0.040, Avg (last 5): -0.011, Time: 0.060s
+2025-08-01 14:38:06,850 - INFO -    📊 Episode 135/200: Reward:  0.012, Avg (last 5):  0.018, Time: 0.057s
+2025-08-01 14:38:07,294 - INFO -    📊 Episode 140/200: Reward:  0.030, Avg (last 5):  0.014, Time: 0.061s
+2025-08-01 14:38:07,699 - INFO -    📊 Episode 145/200: Reward:  0.015, Avg (last 5): -0.014, Time: 0.115s
+2025-08-01 14:38:08,172 - INFO -    📊 Episode 150/200: Reward: -0.018, Avg (last 5): -0.002, Time: 0.063s
+2025-08-01 14:38:08,471 - INFO -    📊 Episode 155/200: Reward: -0.024, Avg (last 5): -0.000, Time: 0.058s
+2025-08-01 14:38:08,961 - INFO -    📊 Episode 160/200: Reward: -0.028, Avg (last 5): -0.030, Time: 0.065s
+2025-08-01 14:38:09,297 - INFO -    📊 Episode 165/200: Reward: -0.054, Avg (last 5): -0.002, Time: 0.060s
+2025-08-01 14:38:09,600 - INFO -    📊 Episode 170/200: Reward: -0.009, Avg (last 5): -0.008, Time: 0.059s
+2025-08-01 14:38:09,904 - INFO -    📊 Episode 175/200: Reward:  0.026, Avg (last 5):  0.024, Time: 0.066s
+2025-08-01 14:38:10,195 - INFO -    📊 Episode 180/200: Reward: -0.019, Avg (last 5): -0.008, Time: 0.057s
+2025-08-01 14:38:10,490 - INFO -    📊 Episode 185/200: Reward: -0.010, Avg (last 5): -0.000, Time: 0.059s
+2025-08-01 14:38:11,017 - INFO -    📊 Episode 190/200: Reward:  0.010, Avg (last 5): -0.002, Time: 0.175s
+2025-08-01 14:38:11,344 - INFO -    📊 Episode 195/200: Reward:  0.018, Avg (last 5):  0.008, Time: 0.059s
+2025-08-01 14:38:11,631 - INFO -    📊 Episode 200/200: Reward:  0.012, Avg (last 5):  0.004, Time: 0.056s
+2025-08-01 14:38:11,631 - INFO - 
+📊 TD3 Training Summary:
+2025-08-01 14:38:11,631 - INFO -    ⏱️  Total time: 12.79s
+2025-08-01 14:38:11,631 - INFO -    🎯 Final reward: 0.012
+2025-08-01 14:38:11,631 - INFO -    📈 Average reward: -0.001
+2025-08-01 14:38:11,631 - INFO -    🔝 Max reward: 0.068
+2025-08-01 14:38:11,631 - INFO -    🔻 Min reward: -0.077
+2025-08-01 14:38:11,631 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/TD3_model_20250801_143811.pt
+2025-08-01 14:38:11,631 - INFO - ✅ TD3 training completed successfully
+2025-08-01 14:38:11,631 - INFO - 🔍 Evaluating TD3...
+2025-08-01 14:38:11,631 - INFO - 
+============================================================
+2025-08-01 14:38:11,631 - INFO - 🔍 Evaluating TD3 Agent
+2025-08-01 14:38:11,631 - INFO - ============================================================
+2025-08-01 14:38:11,631 - INFO - 🤖 Loading TD3 agent from paper_trading_data/unified_training_results/TD3_model_20250801_143811.pt...
+2025-08-01 14:38:11,631 - INFO - ✅ TD3 agent loaded successfully
+2025-08-01 14:38:11,631 - INFO - 📊 Loading evaluation data for TD3...
+2025-08-01 14:38:11,631 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:11,634 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:11,634 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:11,635 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:11,635 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:11,635 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:11,636 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:11,637 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:11,637 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:11,637 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:11,637 - INFO - ✅ Evaluation data loaded for TD3
+2025-08-01 14:38:11,637 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:38:11,637 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:11,637 - INFO - 🎯 Testing TD3 on 286 data points...
+2025-08-01 14:38:11,637 - INFO - 🔄 Running evaluation simulation for TD3...
+2025-08-01 14:38:11,641 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:38:11,647 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:38:11,650 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:38:11,653 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:38:11,656 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:38:11,658 - INFO - ✅ Evaluation simulation completed for TD3
+2025-08-01 14:38:11,658 - INFO - 📊 TD3 Evaluation Results:
+2025-08-01 14:38:11,658 - INFO -    💰 Total return: 31.861
+2025-08-01 14:38:11,658 - INFO -    📈 Average return: 0.111
+2025-08-01 14:38:11,658 - INFO -    🔄 Total trades: 262
+2025-08-01 14:38:11,658 - INFO -    ✅ Wins: 142
+2025-08-01 14:38:11,658 - INFO -    🎯 Win rate: 54.20%
+2025-08-01 14:38:11,658 - INFO - ✅ TD3 evaluation completed successfully
+2025-08-01 14:38:11,658 - INFO - 📊 Progress: 3/7 agents processed
+2025-08-01 14:38:11,659 - INFO -    ✅ Trained: 3/3
+2025-08-01 14:38:11,659 - INFO -    ✅ Evaluated: 3/3
+2025-08-01 14:38:11,659 - INFO - 
+============================================================
+2025-08-01 14:38:11,659 - INFO - 🎯 AGENT 4/7: DDPG
+2025-08-01 14:38:11,659 - INFO - ============================================================
+2025-08-01 14:38:11,659 - INFO - 🔄 Training DDPG...
+2025-08-01 14:38:11,659 - INFO - 
+============================================================
+2025-08-01 14:38:11,659 - INFO - 🎯 Training DDPG Agent
+2025-08-01 14:38:11,659 - INFO - ============================================================
+2025-08-01 14:38:11,659 - INFO - 🔧 Creating DDPG agent...
+2025-08-01 14:38:11,659 - INFO - ✅ DDPG agent created successfully
+2025-08-01 14:38:11,659 - INFO - 📊 Loading data for DDPG...
+2025-08-01 14:38:11,659 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:11,661 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:11,661 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:11,662 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:11,662 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:11,662 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:11,663 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:11,665 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:11,665 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:11,665 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:11,665 - INFO - ✅ Data loaded successfully for DDPG
+2025-08-01 14:38:11,665 - INFO - 🚀 Starting training for DDPG...
+2025-08-01 14:38:11,665 - INFO -    📊 Episodes: 200
+2025-08-01 14:38:11,665 - INFO -    📈 Data points: 2,865
+2025-08-01 14:38:11,665 - INFO -    🎯 Agent type: DDPG
+2025-08-01 14:38:11,665 - INFO -    ⏰ Start time: 14:38:11
+2025-08-01 14:38:11,665 - INFO - 🔄 Starting 200 training episodes for DDPG...
+2025-08-01 14:38:11,723 - INFO -    📊 Episode   1/200: Reward:  0.005, Avg (last 5):  0.005, Time: 0.058s
+2025-08-01 14:38:11,782 - INFO -    📈 Episode   2/200: Reward:  0.011
+2025-08-01 14:38:11,839 - INFO -    📈 Episode   3/200: Reward:  0.034
+2025-08-01 14:38:11,899 - INFO -    📈 Episode   4/200: Reward: -0.003
+2025-08-01 14:38:11,958 - INFO -    📊 Episode   5/200: Reward: -0.049, Avg (last 5): -0.000, Time: 0.059s
+2025-08-01 14:38:12,015 - INFO -    📈 Episode   6/200: Reward:  0.012
+2025-08-01 14:38:12,074 - INFO -    📈 Episode   7/200: Reward:  0.009
+2025-08-01 14:38:12,131 - INFO -    📈 Episode   8/200: Reward: -0.016
+2025-08-01 14:38:12,190 - INFO -    📈 Episode   9/200: Reward:  0.005
+2025-08-01 14:38:12,248 - INFO -    📊 Episode  10/200: Reward: -0.043, Avg (last 5): -0.007, Time: 0.057s
+2025-08-01 14:38:12,535 - INFO -    📊 Episode  15/200: Reward:  0.004, Avg (last 5):  0.002, Time: 0.059s
+2025-08-01 14:38:12,820 - INFO -    📊 Episode  20/200: Reward: -0.002, Avg (last 5):  0.019, Time: 0.057s
+2025-08-01 14:38:13,106 - INFO -    📊 Episode  25/200: Reward:  0.007, Avg (last 5): -0.011, Time: 0.057s
+2025-08-01 14:38:13,398 - INFO -    📊 Episode  30/200: Reward:  0.044, Avg (last 5):  0.007, Time: 0.060s
+2025-08-01 14:38:13,869 - INFO -    📊 Episode  35/200: Reward: -0.019, Avg (last 5): -0.001, Time: 0.201s
+2025-08-01 14:38:14,202 - INFO -    📊 Episode  40/200: Reward:  0.021, Avg (last 5):  0.008, Time: 0.058s
+2025-08-01 14:38:14,501 - INFO -    📊 Episode  45/200: Reward: -0.018, Avg (last 5): -0.008, Time: 0.061s
+2025-08-01 14:38:14,798 - INFO -    📊 Episode  50/200: Reward:  0.005, Avg (last 5): -0.007, Time: 0.058s
+2025-08-01 14:38:15,213 - INFO -    📊 Episode  55/200: Reward:  0.035, Avg (last 5): -0.001, Time: 0.058s
+2025-08-01 14:38:15,506 - INFO -    📊 Episode  60/200: Reward: -0.001, Avg (last 5):  0.008, Time: 0.058s
+2025-08-01 14:38:15,796 - INFO -    📊 Episode  65/200: Reward:  0.045, Avg (last 5): -0.006, Time: 0.058s
+2025-08-01 14:38:16,080 - INFO -    📊 Episode  70/200: Reward:  0.012, Avg (last 5):  0.010, Time: 0.056s
+2025-08-01 14:38:16,365 - INFO -    📊 Episode  75/200: Reward: -0.022, Avg (last 5): -0.013, Time: 0.060s
+2025-08-01 14:38:16,652 - INFO -    📊 Episode  80/200: Reward:  0.006, Avg (last 5): -0.002, Time: 0.059s
+2025-08-01 14:38:16,935 - INFO -    📊 Episode  85/200: Reward: -0.070, Avg (last 5): -0.003, Time: 0.055s
+2025-08-01 14:38:17,218 - INFO -    📊 Episode  90/200: Reward:  0.052, Avg (last 5):  0.013, Time: 0.058s
+2025-08-01 14:38:17,496 - INFO -    📊 Episode  95/200: Reward:  0.005, Avg (last 5): -0.007, Time: 0.057s
+2025-08-01 14:38:17,782 - INFO -    📊 Episode 100/200: Reward:  0.033, Avg (last 5):  0.001, Time: 0.059s
+2025-08-01 14:38:18,065 - INFO -    📊 Episode 105/200: Reward: -0.008, Avg (last 5): -0.010, Time: 0.057s
+2025-08-01 14:38:18,349 - INFO -    📊 Episode 110/200: Reward: -0.004, Avg (last 5): -0.006, Time: 0.058s
+2025-08-01 14:38:18,639 - INFO -    📊 Episode 115/200: Reward:  0.008, Avg (last 5):  0.003, Time: 0.057s
+2025-08-01 14:38:18,928 - INFO -    📊 Episode 120/200: Reward: -0.056, Avg (last 5): -0.041, Time: 0.057s
+2025-08-01 14:38:19,220 - INFO -    📊 Episode 125/200: Reward: -0.035, Avg (last 5): -0.012, Time: 0.057s
+2025-08-01 14:38:19,514 - INFO -    📊 Episode 130/200: Reward: -0.009, Avg (last 5):  0.000, Time: 0.059s
+2025-08-01 14:38:19,802 - INFO -    📊 Episode 135/200: Reward:  0.013, Avg (last 5):  0.020, Time: 0.058s
+2025-08-01 14:38:20,082 - INFO -    📊 Episode 140/200: Reward: -0.004, Avg (last 5): -0.015, Time: 0.056s
+2025-08-01 14:38:20,365 - INFO -    📊 Episode 145/200: Reward: -0.001, Avg (last 5):  0.028, Time: 0.055s
+2025-08-01 14:38:20,648 - INFO -    📊 Episode 150/200: Reward:  0.025, Avg (last 5): -0.000, Time: 0.056s
+2025-08-01 14:38:20,932 - INFO -    📊 Episode 155/200: Reward:  0.030, Avg (last 5):  0.005, Time: 0.055s
+2025-08-01 14:38:21,220 - INFO -    📊 Episode 160/200: Reward: -0.035, Avg (last 5):  0.002, Time: 0.057s
+2025-08-01 14:38:21,501 - INFO -    📊 Episode 165/200: Reward:  0.021, Avg (last 5):  0.016, Time: 0.059s
+2025-08-01 14:38:21,782 - INFO -    📊 Episode 170/200: Reward: -0.015, Avg (last 5): -0.004, Time: 0.058s
+2025-08-01 14:38:22,060 - INFO -    📊 Episode 175/200: Reward:  0.042, Avg (last 5):  0.005, Time: 0.054s
+2025-08-01 14:38:22,343 - INFO -    📊 Episode 180/200: Reward:  0.032, Avg (last 5):  0.004, Time: 0.057s
+2025-08-01 14:38:22,625 - INFO -    📊 Episode 185/200: Reward: -0.017, Avg (last 5): -0.007, Time: 0.055s
+2025-08-01 14:38:22,907 - INFO -    📊 Episode 190/200: Reward: -0.019, Avg (last 5): -0.021, Time: 0.055s
+2025-08-01 14:38:23,189 - INFO -    📊 Episode 195/200: Reward: -0.019, Avg (last 5):  0.007, Time: 0.056s
+2025-08-01 14:38:23,474 - INFO -    📊 Episode 200/200: Reward:  0.018, Avg (last 5):  0.001, Time: 0.058s
+2025-08-01 14:38:23,474 - INFO - 
+📊 DDPG Training Summary:
+2025-08-01 14:38:23,474 - INFO -    ⏱️  Total time: 11.82s
+2025-08-01 14:38:23,474 - INFO -    🎯 Final reward: 0.018
+2025-08-01 14:38:23,474 - INFO -    📈 Average reward: -0.001
+2025-08-01 14:38:23,474 - INFO -    🔝 Max reward: 0.059
+2025-08-01 14:38:23,474 - INFO -    🔻 Min reward: -0.070
+2025-08-01 14:38:23,474 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/DDPG_model_20250801_143823.pt
+2025-08-01 14:38:23,475 - INFO - ✅ DDPG training completed successfully
+2025-08-01 14:38:23,475 - INFO - 🔍 Evaluating DDPG...
+2025-08-01 14:38:23,475 - INFO - 
+============================================================
+2025-08-01 14:38:23,475 - INFO - 🔍 Evaluating DDPG Agent
+2025-08-01 14:38:23,475 - INFO - ============================================================
+2025-08-01 14:38:23,475 - INFO - 🤖 Loading DDPG agent from paper_trading_data/unified_training_results/DDPG_model_20250801_143823.pt...
+2025-08-01 14:38:23,475 - INFO - ✅ DDPG agent loaded successfully
+2025-08-01 14:38:23,475 - INFO - 📊 Loading evaluation data for DDPG...
+2025-08-01 14:38:23,475 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:23,477 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:23,477 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:23,477 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:23,477 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:23,477 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:23,478 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:23,480 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:23,481 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:23,481 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:23,481 - INFO - ✅ Evaluation data loaded for DDPG
+2025-08-01 14:38:23,481 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:38:23,481 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:23,481 - INFO - 🎯 Testing DDPG on 286 data points...
+2025-08-01 14:38:23,481 - INFO - 🔄 Running evaluation simulation for DDPG...
+2025-08-01 14:38:23,484 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:38:23,488 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:38:23,491 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:38:23,494 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:38:23,500 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:38:23,502 - INFO - ✅ Evaluation simulation completed for DDPG
+2025-08-01 14:38:23,502 - INFO - 📊 DDPG Evaluation Results:
+2025-08-01 14:38:23,502 - INFO -    💰 Total return: 25.119
+2025-08-01 14:38:23,502 - INFO -    📈 Average return: 0.088
+2025-08-01 14:38:23,502 - INFO -    🔄 Total trades: 262
+2025-08-01 14:38:23,502 - INFO -    ✅ Wins: 130
+2025-08-01 14:38:23,502 - INFO -    🎯 Win rate: 49.62%
+2025-08-01 14:38:23,502 - INFO - ✅ DDPG evaluation completed successfully
+2025-08-01 14:38:23,502 - INFO - 📊 Progress: 4/7 agents processed
+2025-08-01 14:38:23,502 - INFO -    ✅ Trained: 4/4
+2025-08-01 14:38:23,502 - INFO -    ✅ Evaluated: 4/4
+2025-08-01 14:38:23,502 - INFO - 
+============================================================
+2025-08-01 14:38:23,502 - INFO - 🎯 AGENT 5/7: A2C
+2025-08-01 14:38:23,502 - INFO - ============================================================
+2025-08-01 14:38:23,502 - INFO - 🔄 Training A2C...
+2025-08-01 14:38:23,502 - INFO - 
+============================================================
+2025-08-01 14:38:23,502 - INFO - 🎯 Training A2C Agent
+2025-08-01 14:38:23,502 - INFO - ============================================================
+2025-08-01 14:38:23,502 - INFO - 🔧 Creating A2C agent...
+2025-08-01 14:38:23,502 - INFO - ✅ A2C agent created successfully
+2025-08-01 14:38:23,503 - INFO - 📊 Loading data for A2C...
+2025-08-01 14:38:23,503 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:23,505 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:23,505 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:23,505 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:23,505 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:23,505 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:23,506 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:23,507 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:23,507 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:23,507 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:23,507 - INFO - ✅ Data loaded successfully for A2C
+2025-08-01 14:38:23,507 - INFO - 🚀 Starting training for A2C...
+2025-08-01 14:38:23,507 - INFO -    📊 Episodes: 200
+2025-08-01 14:38:23,507 - INFO -    📈 Data points: 2,865
+2025-08-01 14:38:23,507 - INFO -    🎯 Agent type: A2C
+2025-08-01 14:38:23,507 - INFO -    ⏰ Start time: 14:38:23
+2025-08-01 14:38:23,507 - INFO - 🔄 Starting 200 training episodes for A2C...
+2025-08-01 14:38:23,569 - INFO -    📊 Episode   1/200: Reward:  0.014, Avg (last 5):  0.014, Time: 0.062s
+2025-08-01 14:38:23,633 - INFO -    📈 Episode   2/200: Reward: -0.011
+2025-08-01 14:38:23,693 - INFO -    📈 Episode   3/200: Reward: -0.058
+2025-08-01 14:38:23,754 - INFO -    📈 Episode   4/200: Reward: -0.017
+2025-08-01 14:38:23,815 - INFO -    📊 Episode   5/200: Reward: -0.009, Avg (last 5): -0.016, Time: 0.061s
+2025-08-01 14:38:23,874 - INFO -    📈 Episode   6/200: Reward:  0.041
+2025-08-01 14:38:23,934 - INFO -    📈 Episode   7/200: Reward: -0.012
+2025-08-01 14:38:23,994 - INFO -    📈 Episode   8/200: Reward:  0.001
+2025-08-01 14:38:24,053 - INFO -    📈 Episode   9/200: Reward: -0.044
+2025-08-01 14:38:24,113 - INFO -    📊 Episode  10/200: Reward: -0.037, Avg (last 5): -0.010, Time: 0.060s
+2025-08-01 14:38:24,407 - INFO -    📊 Episode  15/200: Reward: -0.007, Avg (last 5): -0.007, Time: 0.059s
+2025-08-01 14:38:24,701 - INFO -    📊 Episode  20/200: Reward: -0.028, Avg (last 5):  0.001, Time: 0.059s
+2025-08-01 14:38:24,981 - INFO -    📊 Episode  25/200: Reward:  0.016, Avg (last 5):  0.000, Time: 0.055s
+2025-08-01 14:38:25,267 - INFO -    📊 Episode  30/200: Reward: -0.019, Avg (last 5): -0.007, Time: 0.058s
+2025-08-01 14:38:25,568 - INFO -    📊 Episode  35/200: Reward:  0.029, Avg (last 5): -0.004, Time: 0.061s
+2025-08-01 14:38:25,868 - INFO -    📊 Episode  40/200: Reward: -0.017, Avg (last 5): -0.028, Time: 0.061s
+2025-08-01 14:38:26,165 - INFO -    📊 Episode  45/200: Reward:  0.013, Avg (last 5):  0.014, Time: 0.060s
+2025-08-01 14:38:26,462 - INFO -    📊 Episode  50/200: Reward: -0.019, Avg (last 5):  0.017, Time: 0.059s
+2025-08-01 14:38:26,763 - INFO -    📊 Episode  55/200: Reward:  0.012, Avg (last 5):  0.005, Time: 0.059s
+2025-08-01 14:38:27,066 - INFO -    📊 Episode  60/200: Reward:  0.006, Avg (last 5): -0.006, Time: 0.061s
+2025-08-01 14:38:27,361 - INFO -    📊 Episode  65/200: Reward:  0.007, Avg (last 5): -0.005, Time: 0.057s
+2025-08-01 14:38:27,662 - INFO -    📊 Episode  70/200: Reward:  0.031, Avg (last 5): -0.002, Time: 0.060s
+2025-08-01 14:38:27,953 - INFO -    📊 Episode  75/200: Reward: -0.058, Avg (last 5): -0.009, Time: 0.058s
+2025-08-01 14:38:28,248 - INFO -    📊 Episode  80/200: Reward:  0.004, Avg (last 5):  0.007, Time: 0.060s
+2025-08-01 14:38:28,553 - INFO -    📊 Episode  85/200: Reward:  0.013, Avg (last 5):  0.014, Time: 0.065s
+2025-08-01 14:38:28,857 - INFO -    📊 Episode  90/200: Reward: -0.028, Avg (last 5):  0.001, Time: 0.060s
+2025-08-01 14:38:29,164 - INFO -    📊 Episode  95/200: Reward:  0.022, Avg (last 5):  0.016, Time: 0.061s
+2025-08-01 14:38:29,473 - INFO -    📊 Episode 100/200: Reward:  0.012, Avg (last 5):  0.020, Time: 0.059s
+2025-08-01 14:38:29,783 - INFO -    📊 Episode 105/200: Reward:  0.038, Avg (last 5):  0.028, Time: 0.061s
+2025-08-01 14:38:30,080 - INFO -    📊 Episode 110/200: Reward: -0.009, Avg (last 5): -0.030, Time: 0.060s
+2025-08-01 14:38:30,378 - INFO -    📊 Episode 115/200: Reward:  0.016, Avg (last 5):  0.025, Time: 0.061s
+2025-08-01 14:38:30,673 - INFO -    📊 Episode 120/200: Reward:  0.013, Avg (last 5): -0.001, Time: 0.059s
+2025-08-01 14:38:30,972 - INFO -    📊 Episode 125/200: Reward: -0.005, Avg (last 5): -0.007, Time: 0.061s
+2025-08-01 14:38:31,269 - INFO -    📊 Episode 130/200: Reward: -0.006, Avg (last 5): -0.018, Time: 0.059s
+2025-08-01 14:38:31,567 - INFO -    📊 Episode 135/200: Reward: -0.014, Avg (last 5): -0.004, Time: 0.059s
+2025-08-01 14:38:31,994 - INFO -    📊 Episode 140/200: Reward: -0.002, Avg (last 5): -0.002, Time: 0.080s
+2025-08-01 14:38:32,285 - INFO -    📊 Episode 145/200: Reward:  0.014, Avg (last 5):  0.017, Time: 0.059s
+2025-08-01 14:38:32,581 - INFO -    📊 Episode 150/200: Reward:  0.036, Avg (last 5):  0.016, Time: 0.061s
+2025-08-01 14:38:32,868 - INFO -    📊 Episode 155/200: Reward: -0.010, Avg (last 5): -0.005, Time: 0.056s
+2025-08-01 14:38:33,153 - INFO -    📊 Episode 160/200: Reward: -0.023, Avg (last 5): -0.013, Time: 0.056s
+2025-08-01 14:38:33,439 - INFO -    📊 Episode 165/200: Reward: -0.024, Avg (last 5): -0.006, Time: 0.056s
+2025-08-01 14:38:33,740 - INFO -    📊 Episode 170/200: Reward:  0.033, Avg (last 5):  0.021, Time: 0.060s
+2025-08-01 14:38:34,041 - INFO -    📊 Episode 175/200: Reward:  0.007, Avg (last 5): -0.002, Time: 0.060s
+2025-08-01 14:38:34,344 - INFO -    📊 Episode 180/200: Reward: -0.005, Avg (last 5): -0.011, Time: 0.060s
+2025-08-01 14:38:34,646 - INFO -    📊 Episode 185/200: Reward:  0.000, Avg (last 5):  0.021, Time: 0.061s
+2025-08-01 14:38:34,951 - INFO -    📊 Episode 190/200: Reward: -0.020, Avg (last 5): -0.000, Time: 0.061s
+2025-08-01 14:38:35,248 - INFO -    📊 Episode 195/200: Reward: -0.020, Avg (last 5): -0.016, Time: 0.060s
+2025-08-01 14:38:35,549 - INFO -    📊 Episode 200/200: Reward:  0.055, Avg (last 5):  0.026, Time: 0.064s
+2025-08-01 14:38:35,549 - INFO - 
+📊 A2C Training Summary:
+2025-08-01 14:38:35,549 - INFO -    ⏱️  Total time: 12.05s
+2025-08-01 14:38:35,549 - INFO -    🎯 Final reward: 0.055
+2025-08-01 14:38:35,549 - INFO -    📈 Average reward: 0.001
+2025-08-01 14:38:35,549 - INFO -    🔝 Max reward: 0.088
+2025-08-01 14:38:35,549 - INFO -    🔻 Min reward: -0.065
+2025-08-01 14:38:35,550 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/A2C_model_20250801_143835.pt
+2025-08-01 14:38:35,550 - INFO - ✅ A2C training completed successfully
+2025-08-01 14:38:35,550 - INFO - 🔍 Evaluating A2C...
+2025-08-01 14:38:35,550 - INFO - 
+============================================================
+2025-08-01 14:38:35,550 - INFO - 🔍 Evaluating A2C Agent
+2025-08-01 14:38:35,550 - INFO - ============================================================
+2025-08-01 14:38:35,550 - INFO - 🤖 Loading A2C agent from paper_trading_data/unified_training_results/A2C_model_20250801_143835.pt...
+2025-08-01 14:38:35,550 - INFO - ✅ A2C agent loaded successfully
+2025-08-01 14:38:35,550 - INFO - 📊 Loading evaluation data for A2C...
+2025-08-01 14:38:35,550 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:35,552 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:35,552 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:35,552 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:35,552 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:35,552 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:35,553 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:35,554 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:35,555 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:35,555 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:35,555 - INFO - ✅ Evaluation data loaded for A2C
+2025-08-01 14:38:35,555 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:38:35,555 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:35,555 - INFO - 🎯 Testing A2C on 286 data points...
+2025-08-01 14:38:35,555 - INFO - 🔄 Running evaluation simulation for A2C...
+2025-08-01 14:38:35,558 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:38:35,562 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:38:35,566 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:38:35,569 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:38:35,572 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:38:35,574 - INFO - ✅ Evaluation simulation completed for A2C
+2025-08-01 14:38:35,574 - INFO - 📊 A2C Evaluation Results:
+2025-08-01 14:38:35,574 - INFO -    💰 Total return: -12.900
+2025-08-01 14:38:35,574 - INFO -    📈 Average return: -0.045
+2025-08-01 14:38:35,574 - INFO -    🔄 Total trades: 261
+2025-08-01 14:38:35,574 - INFO -    ✅ Wins: 126
+2025-08-01 14:38:35,574 - INFO -    🎯 Win rate: 48.28%
+2025-08-01 14:38:35,574 - INFO - ✅ A2C evaluation completed successfully
+2025-08-01 14:38:35,574 - INFO - 📊 Progress: 5/7 agents processed
+2025-08-01 14:38:35,574 - INFO -    ✅ Trained: 5/5
+2025-08-01 14:38:35,574 - INFO -    ✅ Evaluated: 5/5
+2025-08-01 14:38:35,574 - INFO - 
+============================================================
+2025-08-01 14:38:35,574 - INFO - 🎯 AGENT 6/7: DQN
+2025-08-01 14:38:35,574 - INFO - ============================================================
+2025-08-01 14:38:35,574 - INFO - 🔄 Training DQN...
+2025-08-01 14:38:35,574 - INFO - 
+============================================================
+2025-08-01 14:38:35,574 - INFO - 🎯 Training DQN Agent
+2025-08-01 14:38:35,574 - INFO - ============================================================
+2025-08-01 14:38:35,574 - INFO - 🔧 Creating DQN agent...
+2025-08-01 14:38:35,574 - INFO - ✅ DQN agent created successfully
+2025-08-01 14:38:35,574 - INFO - 📊 Loading data for DQN...
+2025-08-01 14:38:35,574 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:35,577 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:35,577 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:35,577 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:35,577 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:35,577 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:35,580 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:35,581 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:35,582 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:35,582 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:35,582 - INFO - ✅ Data loaded successfully for DQN
+2025-08-01 14:38:35,582 - INFO - 🚀 Starting training for DQN...
+2025-08-01 14:38:35,582 - INFO -    📊 Episodes: 200
+2025-08-01 14:38:35,582 - INFO -    📈 Data points: 2,865
+2025-08-01 14:38:35,582 - INFO -    🎯 Agent type: DQN
+2025-08-01 14:38:35,582 - INFO -    ⏰ Start time: 14:38:35
+2025-08-01 14:38:35,582 - INFO - 🔄 Starting 200 training episodes for DQN...
+2025-08-01 14:38:35,641 - INFO -    📊 Episode   1/200: Reward: -0.026, Avg (last 5): -0.026, Time: 0.059s
+2025-08-01 14:38:35,702 - INFO -    📈 Episode   2/200: Reward: -0.006
+2025-08-01 14:38:35,760 - INFO -    📈 Episode   3/200: Reward:  0.035
+2025-08-01 14:38:35,823 - INFO -    📈 Episode   4/200: Reward:  0.004
+2025-08-01 14:38:35,885 - INFO -    📊 Episode   5/200: Reward:  0.008, Avg (last 5):  0.003, Time: 0.061s
+2025-08-01 14:38:35,945 - INFO -    📈 Episode   6/200: Reward: -0.026
+2025-08-01 14:38:36,008 - INFO -    📈 Episode   7/200: Reward:  0.071
+2025-08-01 14:38:36,069 - INFO -    📈 Episode   8/200: Reward: -0.064
+2025-08-01 14:38:36,131 - INFO -    📈 Episode   9/200: Reward: -0.041
+2025-08-01 14:38:36,191 - INFO -    📊 Episode  10/200: Reward:  0.015, Avg (last 5): -0.009, Time: 0.060s
+2025-08-01 14:38:36,496 - INFO -    📊 Episode  15/200: Reward:  0.011, Avg (last 5):  0.018, Time: 0.063s
+2025-08-01 14:38:36,793 - INFO -    📊 Episode  20/200: Reward:  0.011, Avg (last 5):  0.016, Time: 0.057s
+2025-08-01 14:38:37,090 - INFO -    📊 Episode  25/200: Reward: -0.046, Avg (last 5): -0.005, Time: 0.060s
+2025-08-01 14:38:37,386 - INFO -    📊 Episode  30/200: Reward:  0.010, Avg (last 5):  0.006, Time: 0.058s
+2025-08-01 14:38:37,883 - INFO -    📊 Episode  35/200: Reward:  0.008, Avg (last 5):  0.005, Time: 0.095s
+2025-08-01 14:38:38,198 - INFO -    📊 Episode  40/200: Reward: -0.042, Avg (last 5): -0.007, Time: 0.058s
+2025-08-01 14:38:38,498 - INFO -    📊 Episode  45/200: Reward: -0.007, Avg (last 5):  0.013, Time: 0.062s
+2025-08-01 14:38:38,810 - INFO -    📊 Episode  50/200: Reward: -0.065, Avg (last 5): -0.013, Time: 0.064s
+2025-08-01 14:38:39,119 - INFO -    📊 Episode  55/200: Reward: -0.008, Avg (last 5): -0.009, Time: 0.064s
+2025-08-01 14:38:39,418 - INFO -    📊 Episode  60/200: Reward: -0.035, Avg (last 5): -0.005, Time: 0.059s
+2025-08-01 14:38:39,722 - INFO -    📊 Episode  65/200: Reward: -0.005, Avg (last 5): -0.012, Time: 0.060s
+2025-08-01 14:38:40,019 - INFO -    📊 Episode  70/200: Reward:  0.007, Avg (last 5):  0.010, Time: 0.060s
+2025-08-01 14:38:40,312 - INFO -    📊 Episode  75/200: Reward: -0.001, Avg (last 5): -0.010, Time: 0.059s
+2025-08-01 14:38:40,609 - INFO -    📊 Episode  80/200: Reward: -0.018, Avg (last 5): -0.006, Time: 0.058s
+2025-08-01 14:38:40,905 - INFO -    📊 Episode  85/200: Reward:  0.021, Avg (last 5):  0.014, Time: 0.057s
+2025-08-01 14:38:41,205 - INFO -    📊 Episode  90/200: Reward:  0.019, Avg (last 5):  0.008, Time: 0.060s
+2025-08-01 14:38:41,504 - INFO -    📊 Episode  95/200: Reward: -0.018, Avg (last 5): -0.007, Time: 0.063s
+2025-08-01 14:38:41,802 - INFO -    📊 Episode 100/200: Reward:  0.003, Avg (last 5):  0.017, Time: 0.059s
+2025-08-01 14:38:42,099 - INFO -    📊 Episode 105/200: Reward: -0.001, Avg (last 5): -0.006, Time: 0.058s
+2025-08-01 14:38:42,398 - INFO -    📊 Episode 110/200: Reward:  0.016, Avg (last 5): -0.012, Time: 0.061s
+2025-08-01 14:38:42,697 - INFO -    📊 Episode 115/200: Reward:  0.009, Avg (last 5):  0.008, Time: 0.060s
+2025-08-01 14:38:42,996 - INFO -    📊 Episode 120/200: Reward:  0.050, Avg (last 5):  0.018, Time: 0.058s
+2025-08-01 14:38:43,295 - INFO -    📊 Episode 125/200: Reward:  0.028, Avg (last 5):  0.015, Time: 0.059s
+2025-08-01 14:38:43,596 - INFO -    📊 Episode 130/200: Reward:  0.027, Avg (last 5):  0.013, Time: 0.063s
+2025-08-01 14:38:43,903 - INFO -    📊 Episode 135/200: Reward: -0.023, Avg (last 5): -0.010, Time: 0.061s
+2025-08-01 14:38:44,209 - INFO -    📊 Episode 140/200: Reward:  0.065, Avg (last 5):  0.021, Time: 0.061s
+2025-08-01 14:38:44,520 - INFO -    📊 Episode 145/200: Reward:  0.014, Avg (last 5):  0.008, Time: 0.063s
+2025-08-01 14:38:44,825 - INFO -    📊 Episode 150/200: Reward:  0.021, Avg (last 5): -0.001, Time: 0.060s
+2025-08-01 14:38:45,129 - INFO -    📊 Episode 155/200: Reward: -0.056, Avg (last 5): -0.001, Time: 0.061s
+2025-08-01 14:38:45,428 - INFO -    📊 Episode 160/200: Reward:  0.032, Avg (last 5):  0.027, Time: 0.061s
+2025-08-01 14:38:45,734 - INFO -    📊 Episode 165/200: Reward:  0.035, Avg (last 5):  0.005, Time: 0.062s
+2025-08-01 14:38:46,033 - INFO -    📊 Episode 170/200: Reward:  0.051, Avg (last 5):  0.014, Time: 0.059s
+2025-08-01 14:38:46,355 - INFO -    📊 Episode 175/200: Reward:  0.035, Avg (last 5):  0.020, Time: 0.060s
+2025-08-01 14:38:46,659 - INFO -    📊 Episode 180/200: Reward: -0.006, Avg (last 5):  0.009, Time: 0.058s
+2025-08-01 14:38:46,959 - INFO -    📊 Episode 185/200: Reward: -0.045, Avg (last 5): -0.027, Time: 0.058s
+2025-08-01 14:38:47,258 - INFO -    📊 Episode 190/200: Reward: -0.002, Avg (last 5):  0.000, Time: 0.058s
+2025-08-01 14:38:47,557 - INFO -    📊 Episode 195/200: Reward:  0.021, Avg (last 5):  0.000, Time: 0.059s
+2025-08-01 14:38:47,855 - INFO -    📊 Episode 200/200: Reward: -0.022, Avg (last 5): -0.005, Time: 0.058s
+2025-08-01 14:38:47,856 - INFO - 
+📊 DQN Training Summary:
+2025-08-01 14:38:47,856 - INFO -    ⏱️  Total time: 12.28s
+2025-08-01 14:38:47,856 - INFO -    🎯 Final reward: -0.022
+2025-08-01 14:38:47,856 - INFO -    📈 Average reward: 0.003
+2025-08-01 14:38:47,856 - INFO -    🔝 Max reward: 0.071
+2025-08-01 14:38:47,856 - INFO -    🔻 Min reward: -0.080
+2025-08-01 14:38:47,856 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/DQN_model_20250801_143847.pt
+2025-08-01 14:38:47,856 - INFO - ✅ DQN training completed successfully
+2025-08-01 14:38:47,856 - INFO - 🔍 Evaluating DQN...
+2025-08-01 14:38:47,856 - INFO - 
+============================================================
+2025-08-01 14:38:47,856 - INFO - 🔍 Evaluating DQN Agent
+2025-08-01 14:38:47,856 - INFO - ============================================================
+2025-08-01 14:38:47,856 - INFO - 🤖 Loading DQN agent from paper_trading_data/unified_training_results/DQN_model_20250801_143847.pt...
+2025-08-01 14:38:47,856 - INFO - ✅ DQN agent loaded successfully
+2025-08-01 14:38:47,856 - INFO - 📊 Loading evaluation data for DQN...
+2025-08-01 14:38:47,856 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:47,858 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:47,859 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:47,859 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:47,859 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:47,859 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:47,860 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:47,861 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:47,862 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:47,862 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:47,863 - INFO - ✅ Evaluation data loaded for DQN
+2025-08-01 14:38:47,863 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:38:47,863 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:47,863 - INFO - 🎯 Testing DQN on 286 data points...
+2025-08-01 14:38:47,863 - INFO - 🔄 Running evaluation simulation for DQN...
+2025-08-01 14:38:47,867 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:38:47,870 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:38:47,873 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:38:47,876 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:38:47,881 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:38:47,883 - INFO - ✅ Evaluation simulation completed for DQN
+2025-08-01 14:38:47,883 - INFO - 📊 DQN Evaluation Results:
+2025-08-01 14:38:47,883 - INFO -    💰 Total return: -15.191
+2025-08-01 14:38:47,884 - INFO -    📈 Average return: -0.053
+2025-08-01 14:38:47,884 - INFO -    🔄 Total trades: 261
+2025-08-01 14:38:47,884 - INFO -    ✅ Wins: 130
+2025-08-01 14:38:47,884 - INFO -    🎯 Win rate: 49.81%
+2025-08-01 14:38:47,884 - INFO - ✅ DQN evaluation completed successfully
+2025-08-01 14:38:47,884 - INFO - 📊 Progress: 6/7 agents processed
+2025-08-01 14:38:47,884 - INFO -    ✅ Trained: 6/6
+2025-08-01 14:38:47,884 - INFO -    ✅ Evaluated: 6/6
+2025-08-01 14:38:47,884 - INFO - 
+============================================================
+2025-08-01 14:38:47,884 - INFO - 🎯 AGENT 7/7: DuelingDQN
+2025-08-01 14:38:47,884 - INFO - ============================================================
+2025-08-01 14:38:47,884 - INFO - 🔄 Training DuelingDQN...
+2025-08-01 14:38:47,884 - INFO - 
+============================================================
+2025-08-01 14:38:47,884 - INFO - 🎯 Training DuelingDQN Agent
+2025-08-01 14:38:47,884 - INFO - ============================================================
+2025-08-01 14:38:47,884 - INFO - 🔧 Creating DuelingDQN agent...
+2025-08-01 14:38:47,884 - INFO - ✅ DuelingDQN agent created successfully
+2025-08-01 14:38:47,884 - INFO - 📊 Loading data for DuelingDQN...
+2025-08-01 14:38:47,884 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:38:47,886 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:38:47,886 - INFO -    📈 Total records: 2,865
+2025-08-01 14:38:47,886 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:38:47,886 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:38:47,886 - INFO - 🧹 Cleaning data...
+2025-08-01 14:38:47,887 - INFO -    Removed 0 duplicates
+2025-08-01 14:38:47,888 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:38:47,888 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:38:47,888 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:38:47,888 - INFO - ✅ Data loaded successfully for DuelingDQN
+2025-08-01 14:38:47,888 - INFO - 🚀 Starting training for DuelingDQN...
+2025-08-01 14:38:47,888 - INFO -    📊 Episodes: 200
+2025-08-01 14:38:47,888 - INFO -    📈 Data points: 2,865
+2025-08-01 14:38:47,888 - INFO -    🎯 Agent type: DuelingDQN
+2025-08-01 14:38:47,888 - INFO -    ⏰ Start time: 14:38:47
+2025-08-01 14:38:47,888 - INFO - 🔄 Starting 200 training episodes for DuelingDQN...
+2025-08-01 14:38:47,948 - INFO -    📊 Episode   1/200: Reward:  0.008, Avg (last 5):  0.008, Time: 0.060s
+2025-08-01 14:38:48,009 - INFO -    📈 Episode   2/200: Reward: -0.066
+2025-08-01 14:38:48,070 - INFO -    📈 Episode   3/200: Reward:  0.031
+2025-08-01 14:38:48,131 - INFO -    📈 Episode   4/200: Reward: -0.008
+2025-08-01 14:38:48,191 - INFO -    📊 Episode   5/200: Reward: -0.031, Avg (last 5): -0.013, Time: 0.060s
+2025-08-01 14:38:48,251 - INFO -    📈 Episode   6/200: Reward:  0.041
+2025-08-01 14:38:48,309 - INFO -    📈 Episode   7/200: Reward:  0.048
+2025-08-01 14:38:48,369 - INFO -    📈 Episode   8/200: Reward:  0.019
+2025-08-01 14:38:48,431 - INFO -    📈 Episode   9/200: Reward: -0.002
+2025-08-01 14:38:48,495 - INFO -    📊 Episode  10/200: Reward: -0.033, Avg (last 5):  0.015, Time: 0.063s
+2025-08-01 14:38:48,804 - INFO -    📊 Episode  15/200: Reward:  0.017, Avg (last 5):  0.009, Time: 0.062s
+2025-08-01 14:38:49,108 - INFO -    📊 Episode  20/200: Reward:  0.004, Avg (last 5):  0.006, Time: 0.059s
+2025-08-01 14:38:49,415 - INFO -    📊 Episode  25/200: Reward:  0.049, Avg (last 5): -0.024, Time: 0.059s
+2025-08-01 14:38:49,718 - INFO -    📊 Episode  30/200: Reward: -0.043, Avg (last 5): -0.022, Time: 0.060s
+2025-08-01 14:38:50,013 - INFO -    📊 Episode  35/200: Reward: -0.010, Avg (last 5):  0.014, Time: 0.058s
+2025-08-01 14:38:50,441 - INFO -    📊 Episode  40/200: Reward: -0.023, Avg (last 5): -0.003, Time: 0.060s
+2025-08-01 14:38:50,764 - INFO -    📊 Episode  45/200: Reward:  0.047, Avg (last 5):  0.031, Time: 0.072s
+2025-08-01 14:38:51,062 - INFO -    📊 Episode  50/200: Reward:  0.019, Avg (last 5): -0.001, Time: 0.060s
+2025-08-01 14:38:51,362 - INFO -    📊 Episode  55/200: Reward: -0.041, Avg (last 5): -0.010, Time: 0.058s
+2025-08-01 14:38:51,662 - INFO -    📊 Episode  60/200: Reward:  0.002, Avg (last 5):  0.013, Time: 0.060s
+2025-08-01 14:38:51,960 - INFO -    📊 Episode  65/200: Reward: -0.024, Avg (last 5):  0.023, Time: 0.058s
+2025-08-01 14:38:52,251 - INFO -    📊 Episode  70/200: Reward:  0.005, Avg (last 5):  0.003, Time: 0.059s
+2025-08-01 14:38:52,547 - INFO -    📊 Episode  75/200: Reward: -0.000, Avg (last 5): -0.013, Time: 0.060s
+2025-08-01 14:38:52,838 - INFO -    📊 Episode  80/200: Reward: -0.002, Avg (last 5):  0.008, Time: 0.057s
+2025-08-01 14:38:53,133 - INFO -    📊 Episode  85/200: Reward:  0.033, Avg (last 5):  0.011, Time: 0.057s
+2025-08-01 14:38:53,422 - INFO -    📊 Episode  90/200: Reward:  0.002, Avg (last 5): -0.001, Time: 0.058s
+2025-08-01 14:38:53,719 - INFO -    📊 Episode  95/200: Reward: -0.016, Avg (last 5): -0.004, Time: 0.059s
+2025-08-01 14:38:54,018 - INFO -    📊 Episode 100/200: Reward:  0.039, Avg (last 5): -0.004, Time: 0.060s
+2025-08-01 14:38:54,321 - INFO -    📊 Episode 105/200: Reward: -0.023, Avg (last 5): -0.005, Time: 0.061s
+2025-08-01 14:38:54,620 - INFO -    📊 Episode 110/200: Reward: -0.014, Avg (last 5): -0.018, Time: 0.058s
+2025-08-01 14:38:54,914 - INFO -    📊 Episode 115/200: Reward: -0.030, Avg (last 5):  0.005, Time: 0.059s
+2025-08-01 14:38:55,205 - INFO -    📊 Episode 120/200: Reward: -0.028, Avg (last 5): -0.016, Time: 0.058s
+2025-08-01 14:38:55,494 - INFO -    📊 Episode 125/200: Reward:  0.020, Avg (last 5): -0.006, Time: 0.058s
+2025-08-01 14:38:55,785 - INFO -    📊 Episode 130/200: Reward:  0.009, Avg (last 5):  0.004, Time: 0.056s
+2025-08-01 14:38:56,066 - INFO -    📊 Episode 135/200: Reward: -0.042, Avg (last 5): -0.016, Time: 0.059s
+2025-08-01 14:38:56,354 - INFO -    📊 Episode 140/200: Reward: -0.011, Avg (last 5):  0.011, Time: 0.057s
+2025-08-01 14:38:56,646 - INFO -    📊 Episode 145/200: Reward: -0.037, Avg (last 5):  0.006, Time: 0.057s
+2025-08-01 14:38:56,933 - INFO -    📊 Episode 150/200: Reward:  0.059, Avg (last 5): -0.006, Time: 0.057s
+2025-08-01 14:38:57,221 - INFO -    📊 Episode 155/200: Reward: -0.025, Avg (last 5): -0.004, Time: 0.056s
+2025-08-01 14:38:57,517 - INFO -    📊 Episode 160/200: Reward:  0.040, Avg (last 5):  0.011, Time: 0.065s
+2025-08-01 14:38:57,838 - INFO -    📊 Episode 165/200: Reward: -0.005, Avg (last 5):  0.008, Time: 0.062s
+2025-08-01 14:38:58,184 - INFO -    📊 Episode 170/200: Reward:  0.063, Avg (last 5):  0.017, Time: 0.070s
+2025-08-01 14:38:58,518 - INFO -    📊 Episode 175/200: Reward:  0.000, Avg (last 5): -0.003, Time: 0.062s
+2025-08-01 14:38:58,821 - INFO -    📊 Episode 180/200: Reward:  0.005, Avg (last 5):  0.010, Time: 0.061s
+2025-08-01 14:38:59,126 - INFO -    📊 Episode 185/200: Reward:  0.070, Avg (last 5):  0.031, Time: 0.060s
+2025-08-01 14:38:59,581 - INFO -    📊 Episode 190/200: Reward: -0.004, Avg (last 5): -0.010, Time: 0.063s
+2025-08-01 14:38:59,907 - INFO -    📊 Episode 195/200: Reward:  0.013, Avg (last 5):  0.005, Time: 0.062s
+2025-08-01 14:39:00,203 - INFO -    📊 Episode 200/200: Reward:  0.033, Avg (last 5): -0.015, Time: 0.061s
+2025-08-01 14:39:00,203 - INFO - 
+📊 DuelingDQN Training Summary:
+2025-08-01 14:39:00,203 - INFO -    ⏱️  Total time: 12.32s
+2025-08-01 14:39:00,203 - INFO -    🎯 Final reward: 0.033
+2025-08-01 14:39:00,203 - INFO -    📈 Average reward: 0.001
+2025-08-01 14:39:00,203 - INFO -    🔝 Max reward: 0.079
+2025-08-01 14:39:00,203 - INFO -    🔻 Min reward: -0.075
+2025-08-01 14:39:00,203 - INFO -    💾 Model saved: paper_trading_data/unified_training_results/DuelingDQN_model_20250801_143900.pt
+2025-08-01 14:39:00,203 - INFO - ✅ DuelingDQN training completed successfully
+2025-08-01 14:39:00,203 - INFO - 🔍 Evaluating DuelingDQN...
+2025-08-01 14:39:00,203 - INFO - 
+============================================================
+2025-08-01 14:39:00,203 - INFO - 🔍 Evaluating DuelingDQN Agent
+2025-08-01 14:39:00,203 - INFO - ============================================================
+2025-08-01 14:39:00,203 - INFO - 🤖 Loading DuelingDQN agent from paper_trading_data/unified_training_results/DuelingDQN_model_20250801_143900.pt...
+2025-08-01 14:39:00,203 - INFO - ✅ DuelingDQN agent loaded successfully
+2025-08-01 14:39:00,203 - INFO - 📊 Loading evaluation data for DuelingDQN...
+2025-08-01 14:39:00,203 - INFO - 📊 Loading Bitcoin dataset...
+2025-08-01 14:39:00,205 - INFO - ✅ Successfully loaded dataset:
+2025-08-01 14:39:00,206 - INFO -    📈 Total records: 2,865
+2025-08-01 14:39:00,206 - INFO -    📅 Date range: 2025-07-02 12:26:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:39:00,206 - INFO -    💰 Price range: $25,168.99 - $63,645.89
+2025-08-01 14:39:00,206 - INFO - 🧹 Cleaning data...
+2025-08-01 14:39:00,207 - INFO -    Removed 0 duplicates
+2025-08-01 14:39:00,208 - INFO -    Removed rows with missing values: 2,865 records remaining
+2025-08-01 14:39:00,208 - INFO -    Validated price data: 2,865 records remaining
+2025-08-01 14:39:00,208 - INFO - ✅ Data cleaned successfully: 2,865 records
+2025-08-01 14:39:00,208 - INFO - ✅ Evaluation data loaded for DuelingDQN
+2025-08-01 14:39:00,208 - INFO - 📊 Evaluation data: 286 records
+2025-08-01 14:39:00,208 - INFO - 📅 Date range: 2025-07-29 09:11:30.956 to 2025-08-01 08:26:30.956
+2025-08-01 14:39:00,208 - INFO - 🎯 Testing DuelingDQN on 286 data points...
+2025-08-01 14:39:00,208 - INFO - 🔄 Running evaluation simulation for DuelingDQN...
+2025-08-01 14:39:00,212 - INFO -    📊 Evaluation progress: 17.5% (50/286)
+2025-08-01 14:39:00,215 - INFO -    📊 Evaluation progress: 35.0% (100/286)
+2025-08-01 14:39:00,218 - INFO -    📊 Evaluation progress: 52.4% (150/286)
+2025-08-01 14:39:00,221 - INFO -    📊 Evaluation progress: 69.9% (200/286)
+2025-08-01 14:39:00,224 - INFO -    📊 Evaluation progress: 87.4% (250/286)
+2025-08-01 14:39:00,226 - INFO - ✅ Evaluation simulation completed for DuelingDQN
+2025-08-01 14:39:00,226 - INFO - 📊 DuelingDQN Evaluation Results:
+2025-08-01 14:39:00,226 - INFO -    💰 Total return: 9.590
+2025-08-01 14:39:00,226 - INFO -    📈 Average return: 0.034
+2025-08-01 14:39:00,226 - INFO -    🔄 Total trades: 253
+2025-08-01 14:39:00,226 - INFO -    ✅ Wins: 130
+2025-08-01 14:39:00,226 - INFO -    🎯 Win rate: 51.38%
+2025-08-01 14:39:00,226 - INFO - ✅ DuelingDQN evaluation completed successfully
+2025-08-01 14:39:00,226 - INFO - 📊 Progress: 7/7 agents processed
+2025-08-01 14:39:00,226 - INFO -    ✅ Trained: 7/7
+2025-08-01 14:39:00,226 - INFO -    ✅ Evaluated: 7/7
+2025-08-01 14:39:00,231 - INFO - 📄 Unified training report saved: paper_trading_data/unified_training_results/unified_training_report_20250801_143900.json
+2025-08-01 14:39:00,231 - INFO - 
+🏆 Agent Rankings (by Total Return):
+2025-08-01 14:39:00,231 - INFO -    1. TD3: 31.861 (Win rate: 54.20%)
+2025-08-01 14:39:00,232 - INFO -    2. SAC: 28.371 (Win rate: 56.30%)
+2025-08-01 14:39:00,232 - INFO -    3. DDPG: 25.119 (Win rate: 49.62%)
+2025-08-01 14:39:00,232 - INFO -    4. DuelingDQN: 9.590 (Win rate: 51.38%)
+2025-08-01 14:39:00,232 - INFO -    5. PPO: -5.963 (Win rate: 47.47%)
+2025-08-01 14:39:00,232 - INFO -    6. A2C: -12.900 (Win rate: 48.28%)
+2025-08-01 14:39:00,232 - INFO -    7. DQN: -15.191 (Win rate: 49.81%)
+2025-08-01 14:39:00,232 - INFO - 
+================================================================================
+2025-08-01 14:39:00,232 - INFO - 🎉 UNIFIED TRAINING COMPLETED
+2025-08-01 14:39:00,232 - INFO - ⏱️  Total time: 85.77s
+2025-08-01 14:39:00,232 - INFO - 📊 Trained agents: 7/7
+2025-08-01 14:39:00,232 - INFO - 🔍 Evaluated agents: 7/7
+2025-08-01 14:39:00,232 - INFO - 📈 Success rate: 100.0% training, 100.0% evaluation
+2025-08-01 14:39:00,232 - INFO - ================================================================================
+2025-08-01 14:39:00,232 - INFO - 
+🏆 FINAL AGENT RANKINGS:
+2025-08-01 14:39:00,232 - INFO -    1. TD3: 31.861 return, 54.20% win rate
+2025-08-01 14:39:00,232 - INFO -    2. SAC: 28.371 return, 56.30% win rate
+2025-08-01 14:39:00,232 - INFO -    3. DDPG: 25.119 return, 49.62% win rate
+2025-08-01 14:39:00,232 - INFO -    4. DuelingDQN: 9.590 return, 51.38% win rate
+2025-08-01 14:39:00,232 - INFO -    5. PPO: -5.963 return, 47.47% win rate
+2025-08-01 14:39:00,232 - INFO -    6. A2C: -12.900 return, 48.28% win rate
+2025-08-01 14:39:00,232 - INFO -    7. DQN: -15.191 return, 49.81% win rate

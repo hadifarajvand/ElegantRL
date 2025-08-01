@@ -1,0 +1,9 @@
+{
+  "total_return": 0.15,
+  "sharpe_ratio": 1.2,
+  "max_drawdown": -0.05,
+  "volatility": 0.12,
+  "win_rate": 0.65,
+  "total_trades": 100,
+  "final_value": 115000.0
+}

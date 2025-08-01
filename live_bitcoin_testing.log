@@ -1,0 +1,4 @@
+2025-07-30 20:45:30,985 - paper_trading.data.ccxt_provider - INFO - Successfully initialized mexc exchange
+2025-07-30 20:45:31,346 - paper_trading.training.crypto_drl_agent - INFO - Crypto trading agent created: PPO
+2025-07-30 20:45:32,842 - paper_trading.data.ccxt_provider - INFO - Fetched 687 records for BTC/USDT:USDT on 15m
+2025-07-30 20:45:32,849 - paper_trading.data.ccxt_provider - INFO - Calculated technical indicators for 488 data points
